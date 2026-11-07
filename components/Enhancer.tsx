@@ -7,7 +7,7 @@ type Lang = 'en' | 'si' | 'ta';
 const dict = I18N as Record<string, Partial<Record<Lang, string>>>;
 
 const SEL =
-  "nav ul a, nav .btn, .hero .tag, .hero h1, .hero .lead, .hero .cta a, .statbar small, .eyebrow, .h2, .lede, .dk b, .dk div>span, .step h3, .step p, .mission .val, .mission h4, .mission p, .pledge, .band h3, .band p, .feat b, .feat span, .unit h3, .unit p, .mentor .role, .mentor p, summary, details p, .final h2, .final p, .final small, .final button, .face span, .face p, .legend, .proof .cap, footer .note, .real-tag, .real, .town figcaption, .townlist span, footer .fam span, footer .wrap>div:nth-child(3), .vmeta h4, .vmeta p, .vwrap.ph span, .btn.play";
+  "nav ul a, nav .btn, .mnav a, .hero .tag, .hero h1, .hero .lead, .hero .cta a, .statbar small, .eyebrow, .h2, .lede, .dk b, .dk div>span, .step h3, .step p, .mission .val, .mission h4, .mission p, .pledge, .band h3, .band p, .feat b, .feat span, .unit h3, .unit p, .mentor .role, .mentor p, summary, details p, .mnav a, .final h2, .final p, .final small, .final button, .face span, .face p, .legend, .proof .cap, footer .note, .real-tag, .real, .town figcaption, .townlist span, footer .fam span, footer .wrap>div:nth-child(3), .vmeta h4, .vmeta p, .vwrap.ph span, .btn.play";
 
 const norm = (h: string) => h.replace(/\s+/g, ' ').trim();
 
@@ -18,8 +18,9 @@ export default function Enhancer() {
 
     // Sticky nav
     const nav = document.getElementById('nav');
+    let menuOpen = false;
     const onScroll = () => {
-      if (nav && !nav.hasAttribute('data-solid')) nav.classList.toggle('solid', window.scrollY > 60);
+      if (nav && !nav.hasAttribute('data-solid')) nav.classList.toggle('solid', window.scrollY > 60 || menuOpen);
     };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
@@ -92,6 +93,46 @@ export default function Enhancer() {
       };
       ph.addEventListener('click', h);
       cleanups.push(() => ph.removeEventListener('click', h));
+    }
+
+    // Mobile menu (hamburger)
+    const burger = document.querySelector<HTMLElement>('.burger');
+    const mnav = document.getElementById('mnav');
+    const setMenu = (open: boolean) => {
+      if (!burger || !mnav) return;
+      menuOpen = open;
+      mnav.hidden = !open;
+      burger.setAttribute('aria-expanded', String(open));
+      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      onScroll();
+    };
+    if (burger && mnav) {
+      const onBurger = () => setMenu(!menuOpen);
+      const onDocClick = (e: MouseEvent) => {
+        const t = e.target as Node;
+        if (menuOpen && !mnav.contains(t) && !burger.contains(t)) setMenu(false);
+      };
+      const onLink = (e: Event) => {
+        if ((e.target as HTMLElement).closest('a')) setMenu(false);
+      };
+      const onKey = (e: KeyboardEvent) => {
+        if (e.key === 'Escape' && menuOpen) setMenu(false);
+      };
+      const onResize = () => {
+        if (window.innerWidth > 920 && menuOpen) setMenu(false);
+      };
+      burger.addEventListener('click', onBurger);
+      mnav.addEventListener('click', onLink);
+      document.addEventListener('click', onDocClick);
+      document.addEventListener('keydown', onKey);
+      window.addEventListener('resize', onResize);
+      cleanups.push(() => {
+        burger.removeEventListener('click', onBurger);
+        mnav.removeEventListener('click', onLink);
+        document.removeEventListener('click', onDocClick);
+        document.removeEventListener('keydown', onKey);
+        window.removeEventListener('resize', onResize);
+      });
     }
 
     // Language dropdown: shows only the selected language; opens a list on click
