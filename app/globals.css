@@ -9,7 +9,7 @@ body{font-family:'NunitoLP',system-ui,sans-serif;color:var(--ink);line-height:1.
 h1,h2,h3,h4{font-weight:800;line-height:1.08;letter-spacing:-.01em}
 a{color:inherit;text-decoration:none} img{display:block;max-width:100%}
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
-.fl-logo{display:block;height:auto}
+.fl-logo{display:block;height:auto;max-width:100%;object-fit:contain}
 .btn{display:inline-flex;align-items:center;gap:10px;background:var(--orange);color:var(--navy2);font-weight:800;padding:16px 30px;border-radius:999px;font-size:17px;box-shadow:0 10px 28px rgba(249,166,26,.4);transition:transform .15s}
 .btn:hover{transform:translateY(-2px)}
 .btn.ghost{background:rgba(255,255,255,.12);color:#fff;border:2px solid rgba(255,255,255,.55);box-shadow:none;backdrop-filter:blur(4px)}
@@ -24,8 +24,7 @@ nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .25s,box-sh
 nav.solid{background:rgba(255,255,255,.96);box-shadow:0 2px 20px rgba(0,0,0,.06)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:78px}
 nav .fl-logo{width:178px}
-nav:not(.solid) .fl-logo text{fill:#fff} nav:not(.solid) .fl-logo tspan{fill:var(--orange)}
-nav:not(.solid) .fl-logo line:nth-child(2),nav:not(.solid) .fl-logo line:nth-child(3){stroke:#fff}
+nav .logo-on-solid{display:none} nav.solid .logo-on-solid{display:block} nav.solid .logo-on-hero{display:none}
 nav ul{display:flex;gap:28px;list-style:none;font-weight:700;font-size:15px;color:#fff}
 nav.solid ul{color:var(--navy)} nav ul a:hover{color:var(--orange)}
 nav .btn{padding:11px 22px;font-size:15px}
