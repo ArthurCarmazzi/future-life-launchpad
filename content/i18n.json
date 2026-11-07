@@ -675,10 +675,6 @@
   "si": "වයස් කාණ්ඩය",
   "ta": "வயது வரம்பு"
  },
- "Open to ages 18 to 60.": {
-  "si": "අවුරුදු 18 සිට 60 දක්වා වයසැති අයට විවෘතයි.",
-  "ta": "18 முதல் 60 வயது வரை உள்ளவர்களுக்குத் திறந்துள்ளது."
- },
  "Submit application": {
   "si": "අයදුම්පත යවන්න",
   "ta": "விண்ணப்பத்தை அனுப்பவும்"
@@ -738,5 +734,9 @@
  "Hi Future Life Launchpad! Please WhatsApp me when the first intake opens in {district} district.": {
   "si": "ආයුබෝවන් Future Life Launchpad! පළමු කණ්ඩායම {district} දිස්ත්‍රික්කයේ ආරම්භ වූ විට කරුණාකර මට WhatsApp කරන්න.",
   "ta": "வணக்கம் Future Life Launchpad! முதல் தொகுதி {district} மாவட்டத்தில் தொடங்கும்போது எனக்கு WhatsApp செய்யுங்கள்."
+ },
+ "Open to ages 18 and over.": {
+  "si": "අවුරුදු 18 සහ ඉන් ඉහළ අයට විවෘතයි.",
+  "ta": "18 வயதும் அதற்கு மேற்பட்டவர்களும் விண்ணப்பிக்கலாம்."
  }
 }
