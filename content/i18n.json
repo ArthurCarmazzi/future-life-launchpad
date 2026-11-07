@@ -638,5 +638,105 @@
  "Some images on this website are created or enhanced with AI.": {
   "si": "මෙම වෙබ් අඩවියේ සමහර රූප AI මගින් නිර්මාණය කර හෝ වැඩිදියුණු කර ඇත.",
   "ta": "இந்த இணையதளத்தில் உள்ள சில படங்கள் AI மூலம் உருவாக்கப்பட்டவை அல்லது மேம்படுத்தப்பட்டவை."
+ },
+ "Full name": {
+  "si": "සම්පූර්ණ නම",
+  "ta": "முழுப் பெயர்"
+ },
+ "Your full name": {
+  "si": "ඔබේ සම්පූර්ණ නම",
+  "ta": "உங்கள் முழுப் பெயர்"
+ },
+ "Phone number": {
+  "si": "දුරකථන අංකය",
+  "ta": "தொலைபேசி எண்"
+ },
+ "WhatsApp number": {
+  "si": "WhatsApp අංකය",
+  "ta": "WhatsApp எண்"
+ },
+ "Same as phone number": {
+  "si": "දුරකථන අංකයම",
+  "ta": "தொலைபேசி எண்ணே"
+ },
+ "Gmail address": {
+  "si": "Gmail ලිපිනය",
+  "ta": "Gmail முகவரி"
+ },
+ "District": {
+  "si": "දිස්ත්‍රික්කය",
+  "ta": "மாவட்டம்"
+ },
+ "Select your district": {
+  "si": "ඔබේ දිස්ත්‍රික්කය තෝරන්න",
+  "ta": "உங்கள் மாவட்டத்தைத் தேர்ந்தெடுக்கவும்"
+ },
+ "Age range": {
+  "si": "වයස් කාණ්ඩය",
+  "ta": "வயது வரம்பு"
+ },
+ "Open to ages 18 to 60.": {
+  "si": "අවුරුදු 18 සිට 60 දක්වා වයසැති අයට විවෘතයි.",
+  "ta": "18 முதல் 60 வயது வரை உள்ளவர்களுக்குத் திறந்துள்ளது."
+ },
+ "Submit application": {
+  "si": "අයදුම්පත යවන්න",
+  "ta": "விண்ணப்பத்தை அனுப்பவும்"
+ },
+ "Sending…": {
+  "si": "යවමින්…",
+  "ta": "அனுப்புகிறது…"
+ },
+ "Thank you, we have your application.": {
+  "si": "ස්තූතියි, ඔබේ අයදුම්පත අපට ලැබුණා.",
+  "ta": "நன்றி, உங்கள் விண்ணப்பம் கிடைத்தது."
+ },
+ "We'll WhatsApp you when your district opens.": {
+  "si": "ඔබේ දිස්ත්‍රික්කය විවෘත වූ විට අපි WhatsApp කරන්නෙමු.",
+  "ta": "உங்கள் மாவட்டம் திறக்கும்போது WhatsApp செய்கிறோம்."
+ },
+ "Back to home": {
+  "si": "මුල් පිටුවට",
+  "ta": "முகப்புக்குத் திரும்பு"
+ },
+ "Please enter your full name.": {
+  "si": "කරුණාකර ඔබේ සම්පූර්ණ නම ඇතුළත් කරන්න.",
+  "ta": "உங்கள் முழுப் பெயரை உள்ளிடவும்."
+ },
+ "Enter a valid Sri Lankan phone number, like 077 123 4567.": {
+  "si": "වලංගු ශ්‍රී ලාංකික දුරකථන අංකයක් ඇතුළත් කරන්න, උදා: 077 123 4567.",
+  "ta": "செல்லுபடியாகும் இலங்கை தொலைபேசி எண்ணை உள்ளிடவும், எ.கா. 077 123 4567."
+ },
+ "Enter a valid WhatsApp number, like 077 123 4567.": {
+  "si": "වලංගු WhatsApp අංකයක් ඇතුළත් කරන්න, උදා: 077 123 4567.",
+  "ta": "செல்லுபடியாகும் WhatsApp எண்ணை உள்ளிடவும், எ.கா. 077 123 4567."
+ },
+ "Enter a valid Gmail address, like name@gmail.com.": {
+  "si": "වලංගු Gmail ලිපිනයක් ඇතුළත් කරන්න, උදා: name@gmail.com.",
+  "ta": "செல்லுபடியாகும் Gmail முகவரியை உள்ளிடவும், எ.கா. name@gmail.com."
+ },
+ "Please choose your district.": {
+  "si": "කරුණාකර ඔබේ දිස්ත්‍රික්කය තෝරන්න.",
+  "ta": "உங்கள் மாவட்டத்தைத் தேர்ந்தெடுக்கவும்."
+ },
+ "Please choose your age range.": {
+  "si": "කරුණාකර ඔබේ වයස් කාණ්ඩය තෝරන්න.",
+  "ta": "உங்கள் வயது வரம்பைத் தேர்ந்தெடுக்கவும்."
+ },
+ "Sorry, we couldn't send your application. Please try again in a moment.": {
+  "si": "සමාවන්න, ඔබේ අයදුම්පත යැවීමට නොහැකි විය. මොහොතකින් නැවත උත්සාහ කරන්න.",
+  "ta": "மன்னிக்கவும், உங்கள் விண்ணப்பத்தை அனுப்ப முடியவில்லை. சிறிது நேரத்தில் மீண்டும் முயற்சிக்கவும்."
+ },
+ "Opening WhatsApp. Just press Send.": {
+  "si": "WhatsApp විවෘත වෙමින්. Send ඔබන්න.",
+  "ta": "WhatsApp திறக்கிறது. Send அழுத்தவும்."
+ },
+ "First intake opens soon. Choose your district and we'll WhatsApp you when it opens.": {
+  "si": "පළමු කණ්ඩායම ළඟදීම ආරම්භ වේ. ඔබේ දිස්ත්‍රික්කය තෝරන්න, එය විවෘත වූ විට අපි WhatsApp කරන්නම්.",
+  "ta": "முதல் தொகுதி விரைவில் தொடங்கும். உங்கள் மாவட்டத்தைத் தேர்ந்தெடுங்கள், அது திறக்கும்போது WhatsApp செய்கிறோம்."
+ },
+ "Hi Future Life Launchpad! Please WhatsApp me when the first intake opens in {district} district.": {
+  "si": "ආයුබෝවන් Future Life Launchpad! පළමු කණ්ඩායම {district} දිස්ත්‍රික්කයේ ආරම්භ වූ විට කරුණාකර මට WhatsApp කරන්න.",
+  "ta": "வணக்கம் Future Life Launchpad! முதல் தொகுதி {district} மாவட்டத்தில் தொடங்கும்போது எனக்கு WhatsApp செய்யுங்கள்."
  }
 }

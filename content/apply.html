@@ -1,0 +1,71 @@
+<main class="apply-page" id="apply-top">
+<div class="wrap">
+  <div class="apply-head">
+    <h1 class="h2">Apply, free</h1>
+    <p class="lede">Two minutes, in your language. Tell us what you sell, or want to sell. No business plan needed.</p>
+  </div>
+
+  <form class="aform" id="applyForm" novalidate>
+    <div class="field full" data-field="name">
+      <label for="f-name">Full name</label>
+      <input id="f-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Your full name" required>
+      <span class="err" id="e-name" role="alert"></span>
+    </div>
+
+    <div class="field" data-field="phone">
+      <label for="f-phone">Phone number</label>
+      <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="077 123 4567" required>
+      <span class="err" id="e-phone" role="alert"></span>
+    </div>
+
+    <div class="field" data-field="whatsapp">
+      <label for="f-whatsapp">WhatsApp number</label>
+      <input id="f-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="off" maxlength="20" placeholder="077 123 4567" required>
+      <label class="same" for="f-same"><input id="f-same" type="checkbox"><span>Same as phone number</span></label>
+      <span class="err" id="e-whatsapp" role="alert"></span>
+    </div>
+
+    <div class="field" data-field="email">
+      <label for="f-email">Gmail address</label>
+      <input id="f-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="120" placeholder="name@gmail.com" required>
+      <span class="err" id="e-email" role="alert"></span>
+    </div>
+
+    <div class="field" data-field="district">
+      <label for="f-district">District</label>
+      <select id="f-district" name="district" required>
+        <option value="">Select your district</option><option value="Ampara">Ampara</option><option value="Anuradhapura">Anuradhapura</option><option value="Badulla">Badulla</option><option value="Batticaloa">Batticaloa</option><option value="Colombo">Colombo</option><option value="Galle">Galle</option><option value="Gampaha">Gampaha</option><option value="Hambantota">Hambantota</option><option value="Jaffna">Jaffna</option><option value="Kalutara">Kalutara</option><option value="Kandy">Kandy</option><option value="Kegalle">Kegalle</option><option value="Kilinochchi">Kilinochchi</option><option value="Kurunegala">Kurunegala</option><option value="Mannar">Mannar</option><option value="Matale">Matale</option><option value="Matara">Matara</option><option value="Monaragala">Monaragala</option><option value="Mullaitivu">Mullaitivu</option><option value="Nuwara Eliya">Nuwara Eliya</option><option value="Polonnaruwa">Polonnaruwa</option><option value="Puttalam">Puttalam</option><option value="Ratnapura">Ratnapura</option><option value="Trincomalee">Trincomalee</option><option value="Vavuniya">Vavuniya</option>
+      </select>
+      <span class="err" id="e-district" role="alert"></span>
+    </div>
+
+    <fieldset class="field full agefield" data-field="age">
+      <legend>Age range</legend>
+      <div class="agegrid">
+        <label class="pill"><input type="radio" name="age" value="18-24" required><span>18–24</span></label>
+        <label class="pill"><input type="radio" name="age" value="25-34"><span>25–34</span></label>
+        <label class="pill"><input type="radio" name="age" value="35-44"><span>35–44</span></label>
+        <label class="pill"><input type="radio" name="age" value="45-54"><span>45–54</span></label>
+        <label class="pill"><input type="radio" name="age" value="55-60"><span>55–60</span></label>
+      </div>
+      <p class="hint">Open to ages 18 to 60.</p>
+      <span class="err" id="e-age" role="alert"></span>
+    </fieldset>
+
+    <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+    <div class="full">
+      <button class="btn submit" type="submit" id="applySubmit">Submit application</button>
+      <p class="formerr" id="applyStatus" role="alert"></p>
+      <small class="consent">Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you unless you tick that box separately when you apply.</small>
+    </div>
+  </form>
+
+  <div class="athanks" id="applyThanks" hidden tabindex="-1">
+    <div class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h2>Thank you, we have your application.</h2>
+    <p>We'll WhatsApp you when your district opens.</p>
+    <a class="btn" href="/">Back to home</a>
+  </div>
+</div>
+</main>

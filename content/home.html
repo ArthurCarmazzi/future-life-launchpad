@@ -4,7 +4,7 @@
     <span class="tag"><i></i> First intake opening soon · Free</span>
     <h1>Build your business <em>here.</em><br>At any age.</h1>
     <p class="lead">Twenty-three or sixty-six. Online shop or spice garden. Jaffna or Galle. Launchpad gives you a real mentor, a circle that keeps you honest, and a group of companies behind you when it works.</p>
-    <div class="cta"><a class="btn" href="#apply">Apply for the next intake</a><a class="btn ghost" href="#who">Is this for me?</a></div>
+    <div class="cta"><a class="btn" href="/apply/">Apply for the next intake</a><a class="btn ghost" href="#who">Is this for me?</a></div>
   </div></div>
 </header>
 <div class="statbar"><div class="wrap">
@@ -146,8 +146,9 @@
 <section class="final" id="apply">
   <img src="/img/r_weavers.jpg" alt="">
   <div class="wrap"><h2>Your business. <em>Built here.</em></h2>
-  <p>First intake opens soon. Leave your number and we'll WhatsApp you when your district opens.</p>
-  <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Got it. Talk soon.';">
-    <input type="tel" placeholder="WhatsApp number" aria-label="WhatsApp number"><button class="btn" type="submit">Notify me</button></form>
+  <p>First intake opens soon. Choose your district and we'll WhatsApp you when it opens.</p>
+  <form id="notifyForm" novalidate>
+    <select aria-label="District"><option value="">Select your district</option><option value="Ampara">Ampara</option><option value="Anuradhapura">Anuradhapura</option><option value="Badulla">Badulla</option><option value="Batticaloa">Batticaloa</option><option value="Colombo">Colombo</option><option value="Galle">Galle</option><option value="Gampaha">Gampaha</option><option value="Hambantota">Hambantota</option><option value="Jaffna">Jaffna</option><option value="Kalutara">Kalutara</option><option value="Kandy">Kandy</option><option value="Kegalle">Kegalle</option><option value="Kilinochchi">Kilinochchi</option><option value="Kurunegala">Kurunegala</option><option value="Mannar">Mannar</option><option value="Matale">Matale</option><option value="Matara">Matara</option><option value="Monaragala">Monaragala</option><option value="Mullaitivu">Mullaitivu</option><option value="Nuwara Eliya">Nuwara Eliya</option><option value="Polonnaruwa">Polonnaruwa</option><option value="Puttalam">Puttalam</option><option value="Ratnapura">Ratnapura</option><option value="Trincomalee">Trincomalee</option><option value="Vavuniya">Vavuniya</option></select><button class="btn" type="submit">Notify me</button></form>
+  <span class="nmsg" id="notifyMsg" role="alert"></span>
   <small>Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you unless you tick that box separately when you apply.</small></div>
 </section>
