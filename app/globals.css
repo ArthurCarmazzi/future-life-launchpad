@@ -241,3 +241,45 @@ nav.solid .burger{background:var(--soft);border-color:var(--line)} nav.solid .bu
 .mnav a.btn{margin-top:18px;border-bottom:0;text-align:center;padding:14px 22px;font-size:16px}
 @media(max-width:920px){.burger{display:flex} .mnav:not([hidden]){display:block}}
 @media(min-width:921px){.mnav{display:none!important}}
+
+/* apply / inquiry form */
+.apply-page{background:var(--soft);padding:150px 0 110px;min-height:100vh}
+.apply-head{max-width:680px;margin:0 auto 36px;text-align:center}
+.apply-head .h2{margin-bottom:14px} .apply-head .lede{margin:0 auto}
+.aform,.athanks{max-width:720px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:28px;padding:38px;box-shadow:0 24px 60px rgba(27,33,64,.09)}
+.aform{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.aform[hidden],.athanks[hidden]{display:none}
+.aform .full{grid-column:1/-1}
+.field{display:flex;flex-direction:column;gap:8px;min-width:0;border:0;padding:0;margin:0}
+.aform label,.aform legend{font-weight:800;font-size:14px;color:var(--navy);padding:0}
+.aform input[type=text],.aform input[type=tel],.aform input[type=email],.aform select{width:100%;font-family:inherit;font-size:16px;color:var(--ink);background:var(--soft);border:1.5px solid var(--line);border-radius:16px;padding:15px 18px;transition:border-color .15s,box-shadow .15s,background .15s;outline:none}
+.aform input::placeholder{color:#9aa0bb}
+.aform input:focus,.aform select:focus{background:#fff;border-color:var(--orange);box-shadow:0 0 0 4px rgba(249,166,26,.22)}
+.aform input[readonly]{opacity:.75}
+.aform select{appearance:none;-webkit-appearance:none;cursor:pointer;padding-right:46px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%232B388F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 18px center}
+.field.invalid input,.field.invalid select{border-color:#d8453b;background:#fff7f6}
+.field.invalid .pill span{border-color:#d8453b}
+.err{color:#c4372d;font-size:13px;font-weight:700}
+.err:empty{display:none}
+.aform .same{display:flex;align-items:center;gap:9px;font-weight:700;font-size:13.5px;color:var(--mute);cursor:pointer}
+.aform .same input{width:18px;height:18px;accent-color:var(--orange);margin:0;flex:none}
+.agegrid{display:flex;flex-wrap:wrap;gap:10px}
+.pill{position:relative;cursor:pointer}
+.pill input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
+.pill span{display:block;padding:12px 22px;border-radius:999px;border:1.5px solid var(--line);background:var(--soft);font-weight:800;font-size:15px;color:var(--navy);transition:background .15s,border-color .15s,transform .15s}
+.pill:hover span{border-color:var(--orange)}
+.pill input:checked+span{background:var(--orange);border-color:var(--orange);color:var(--navy2);box-shadow:0 8px 20px rgba(249,166,26,.35)}
+.pill input:focus-visible+span{box-shadow:0 0 0 4px rgba(249,166,26,.35)}
+.aform .hint{font-size:13px;color:var(--mute);margin-top:2px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.aform .submit{width:100%;justify-content:center;border:0;cursor:pointer;font-family:inherit}
+.aform .submit:disabled{opacity:.65;cursor:progress;transform:none}
+.formerr{color:#c4372d;font-weight:700;font-size:14px;margin-top:14px;text-align:center}
+.formerr:empty{display:none}
+.aform .consent{display:block;margin-top:16px;font-size:12.5px;color:var(--mute);line-height:1.5;text-align:center}
+.athanks{text-align:center;padding:56px 38px;outline:none}
+.athanks .tick{width:68px;height:68px;border-radius:50%;background:var(--orange);color:var(--navy2);display:grid;place-items:center;margin:0 auto 22px;box-shadow:0 12px 28px rgba(249,166,26,.4)}
+.athanks h2{font-size:clamp(26px,3.6vw,36px);color:var(--navy);margin-bottom:12px}
+.athanks p{font-size:18px;color:var(--mute);margin-bottom:28px}
+@media(max-width:640px){.apply-page{padding:118px 0 80px}.aform{grid-template-columns:1fr;padding:26px 20px;border-radius:24px;gap:20px}.athanks{padding:40px 22px}.pill span{padding:11px 18px}}
+html[lang=si] .aform label,html[lang=ta] .aform label,html[lang=si] .aform legend,html[lang=ta] .aform legend{font-size:15px}
