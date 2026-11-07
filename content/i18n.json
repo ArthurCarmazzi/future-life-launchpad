@@ -1,0 +1,642 @@
+{
+ "Who it's for": {
+  "si": "කාටද?",
+  "ta": "யாருக்காக?"
+ },
+ "How it works": {
+  "si": "ක්‍රියාත්මක වන ආකාරය",
+  "ta": "எப்படி செயல்படுகிறது"
+ },
+ "The app": {
+  "si": "ඇප් එක",
+  "ta": "செயலி"
+ },
+ "Ecosystem": {
+  "si": "පරිසර පද්ධතිය",
+  "ta": "எங்கள் குழுமம்"
+ },
+ "Mentors": {
+  "si": "උපදේශකයින්",
+  "ta": "வழிகாட்டிகள்"
+ },
+ "Apply free": {
+  "si": "නොමිලේ අයදුම් කරන්න",
+  "ta": "இலவசமாக விண்ணப்பிக்க"
+ },
+ "<i></i> First intake opening soon · Free": {
+  "si": "<i></i> පළමු කණ්ඩායම ළඟදීම · නොමිලේ",
+  "ta": "<i></i> முதல் தொகுதி விரைவில் · இலவசம்"
+ },
+ "Build your business <em>here.</em><br>At any age.": {
+  "si": "ඔබේ ව්‍යාපාරය <em>මෙහිම</em> ගොඩනගන්න.<br>ඕනෑම වයසක.",
+  "ta": "உங்கள் தொழிலை <em>இங்கேயே</em> கட்டியெழுப்புங்கள்.<br>எந்த வயதிலும்."
+ },
+ "Twenty-three or sixty-six. Online shop or spice garden. Jaffna or Galle. Launchpad gives you a real mentor, a circle that keeps you honest, and a group of companies behind you when it works.": {
+  "si": "වයස විසිතුනද හැටහයද. ඔන්ලයින් කඩයක්ද කුළුබඩු වත්තක්ද. යාපනයද ගාල්ලද. Launchpad ඔබට සැබෑ උපදේශකයෙක්, ඔබව අවංකව තබන කණ්ඩායමක් සහ ව්‍යාපාරය සාර්ථක වූ විට ඔබ පිටුපස සිටින සමාගම් සමූහයක් ලබා දෙයි.",
+  "ta": "இருபத்து மூன்றா அறுபத்தாறா. ஆன்லைன் கடையா மசாலா தோட்டமா. யாழ்ப்பாணமா காலியா. Launchpad உங்களுக்கு ஒரு உண்மையான வழிகாட்டி, உங்களை நேர்மையாக வைத்திருக்கும் ஒரு குழு, தொழில் வெற்றி பெறும்போது உங்களுக்குப் பின்னால் நிற்கும் நிறுவனங்களின் குழுமம் ஆகியவற்றைத் தருகிறது."
+ },
+ "Apply for the next intake": {
+  "si": "ඊළඟ කණ්ඩායමට අයදුම් කරන්න",
+  "ta": "அடுத்த தொகுதிக்கு விண்ணப்பிக்க"
+ },
+ "Is this for me?": {
+  "si": "මෙය මට ගැළපේද?",
+  "ta": "இது எனக்கானதா?"
+ },
+ "to join. No deposit, no fee.": {
+  "si": "සම්බන්ධ වීමට. තැන්පතුවක් නැත, ගාස්තුවක් නැත.",
+  "ta": "சேர. வைப்புத் தொகை இல்லை, கட்டணம் இல்லை."
+ },
+ "people per mentor circle": {
+  "si": "එක් උපදේශක කවයකට පුද්ගලයින්",
+  "ta": "ஒரு வழிகாட்டி வட்டத்திற்கு நபர்கள்"
+ },
+ "one small task every day": {
+  "si": "දිනපතා එක් කුඩා කාර්යයක්",
+  "ta": "தினமும் ஒரு சிறிய பணி"
+ },
+ "languages: Sinhala, Tamil, English": {
+  "si": "භාෂා: සිංහල, දෙමළ, ඉංග්‍රීසි",
+  "ta": "மொழிகள்: சிங்களம், தமிழ், ஆங்கிலம்"
+ },
+ "There is no right age to start.<br>There is only a first sale.": {
+  "si": "ආරම්භ කිරීමට නිවැරදි වයසක් නැත.<br>ඇත්තේ පළමු විකිණීම පමණි.",
+  "ta": "தொடங்க சரியான வயது என்று ஒன்று இல்லை.<br>இருப்பது முதல் விற்பனை மட்டுமே."
+ },
+ "310,000 Sri Lankans left for jobs abroad last year. Plenty more stayed and started something with no map. Launchpad is for both: the bedroom hustler, the retired uncle with a recipe, the weaver who deserves better buyers.": {
+  "si": "පසුගිය වසරේ ශ්‍රී ලාංකිකයින් 310,000ක් විදේශ රැකියා සඳහා පිටත්ව ගියහ. තවත් බොහෝ දෙනා මෙහිම රැඳී සිතියමක් නැතිව යමක් ආරම්භ කළහ. Launchpad දෙපිරිසටම ය: නිදන කාමරයෙන් වෙළඳාම් කරන තරුණයාට, වට්ටෝරුවක් ඇති විශ්‍රාමික මාමාට, වඩා හොඳ ගැනුම්කරුවන් ලැබිය යුතු රෙදි වියන්නියට.",
+  "ta": "கடந்த ஆண்டு 310,000 இலங்கையர்கள் வெளிநாட்டு வேலைக்காகச் சென்றனர். இன்னும் பலர் இங்கேயே இருந்து வழிகாட்டல் இன்றி ஏதோ ஒன்றைத் தொடங்கினர். Launchpad இரு தரப்பினருக்குமானது: படுக்கையறையிலிருந்து விற்பனை செய்யும் இளைஞருக்கு, சமையல் குறிப்பு வைத்திருக்கும் ஓய்வுபெற்ற மாமாவுக்கு, சிறந்த வாங்குநர்களுக்குத் தகுதியான நெசவாளருக்கு."
+ },
+ "Kurunegala": {
+  "si": "කුරුණෑගල",
+  "ta": "குருநாகல்"
+ },
+ "Sells shirts on Facebook from his bedroom. Wants a brand, not a side hustle.": {
+  "si": "නිදන කාමරයේ සිට ෆේස්බුක් හරහා කමිස විකුණයි. අවශ්‍ය අමතර ආදායමක් නොව සන්නාමයක්.",
+  "ta": "படுக்கையறையிலிருந்து ஃபேஸ்புக்கில் சட்டைகளை விற்கிறார். தேவை பக்கத் தொழில் அல்ல, ஒரு பிராண்ட்."
+ },
+ "Jaffna": {
+  "si": "යාපනය",
+  "ta": "யாழ்ப்பாணம்"
+ },
+ "Runs a tailoring studio. Wants bulk orders and a second machine.": {
+  "si": "මැහුම් ස්ටුඩියෝවක් පවත්වයි. අවශ්‍ය තොග ඇණවුම් සහ දෙවන මැෂිමක්.",
+  "ta": "தையல் ஸ்டுடியோ நடத்துகிறார். தேவை மொத்த ஆர்டர்களும் இரண்டாவது இயந்திரமும்."
+ },
+ "Real": {
+  "si": "සැබෑ",
+  "ta": "உண்மை"
+ },
+ "Future Life customer": {
+  "si": "Future Life පාරිභෝගිකයෙක්",
+  "ta": "Future Life வாடிக்கையாளர்"
+ },
+ "Already backed by FLI. Launchpad is how she grows it properly.": {
+  "si": "දැනටමත් FLI සහාය ලබයි. Launchpad යනු ඇය එය නිසි ලෙස වර්ධනය කරන ආකාරයයි.",
+  "ta": "ஏற்கனவே FLI ஆதரவு பெறுகிறார். Launchpad மூலம் அதை முறையாக வளர்க்கிறார்."
+ },
+ "Galle": {
+  "si": "ගාල්ල",
+  "ta": "காலி"
+ },
+ "Fixes phones. Wants a second shop and staff he can trust.": {
+  "si": "දුරකථන අලුත්වැඩියා කරයි. අවශ්‍ය දෙවන කඩයක් සහ විශ්වාස කළ හැකි සේවකයින්.",
+  "ta": "தொலைபேசிகளைப் பழுதுபார்க்கிறார். தேவை இரண்டாவது கடையும் நம்பகமான பணியாளர்களும்."
+ },
+ "Matale": {
+  "si": "මාතලේ",
+  "ta": "மாத்தளை"
+ },
+ "Retired, restless, and sitting on the family spice recipe.": {
+  "si": "විශ්‍රාමිකයි, නොසන්සුන්, පවුලේ කුළුබඩු වට්ටෝරුව අතේ තියාගෙන.",
+  "ta": "ஓய்வுபெற்றவர், சும்மா இருக்க முடியாதவர், குடும்ப மசாலா செய்முறையை கையில் வைத்திருப்பவர்."
+ },
+ "Weaves every day. Deserves buyers who pay what it is worth.": {
+  "si": "දිනපතා රෙදි වියයි. සාධාරණ මිලක් ගෙවන ගැනුම්කරුවන් ලැබිය යුතුයි.",
+  "ta": "தினமும் நெசவு செய்கிறார். நியாயமான விலை தரும் வாங்குநர்கள் கிடைக்க வேண்டும்."
+ },
+ "✦ Illustrations of who Launchpad is for. Unmarked photos are real Future Life customers.": {
+  "si": "✦ Launchpad කා සඳහාද යන්න පෙන්වන නිදර්ශන. ලකුණු නොකළ ඡායාරූප සැබෑ Future Life පාරිභෝගිකයින්ය.",
+  "ta": "✦ Launchpad யாருக்கானது என்பதைக் காட்டும் விளக்கப் படங்கள். குறியிடப்படாத படங்கள் உண்மையான Future Life வாடிக்கையாளர்கள்."
+ },
+ "You don't need to know how yet": {
+  "si": "ඔබ තවම කරන්නේ කෙසේදැයි දැන ගත යුතු නැත",
+  "ta": "எப்படி என்று இப்போதே தெரிய வேண்டியதில்லை"
+ },
+ "Never sold online? Never priced properly? Good. That's what we're for.": {
+  "si": "කවදාවත් ඔන්ලයින් විකුණලා නැද්ද? මිල නියම කරලා නැද්ද? හොඳයි. අපි ඉන්නේ ඒකටයි.",
+  "ta": "ஆன்லைனில் விற்றதில்லையா? சரியாக விலை வைத்ததில்லையா? நல்லது. அதற்காகத்தான் நாங்கள் இருக்கிறோம்."
+ },
+ "Most people never start because they're embarrassed by what they don't know. In a Launchpad circle, not knowing is the entry ticket. Someone sits next to you and shows you, then checks you actually did it.": {
+  "si": "බොහෝ දෙනා කිසිදා ආරම්භ නොකරන්නේ තමන් නොදන්නා දේ ගැන ලැජ්ජාවෙනි. Launchpad කවයක, නොදැනීම ඇතුළු වීමේ ප්‍රවේශපත්‍රයයි. කෙනෙක් ඔබ ළඟ වාඩි වී පෙන්වා දී, ඔබ එය ඇත්තටම කළාදැයි පරීක්ෂා කරයි.",
+  "ta": "தெரியாதது பற்றிய வெட்கத்தால்தான் பெரும்பாலானோர் தொடங்குவதே இல்லை. Launchpad வட்டத்தில், தெரியாமல் இருப்பதே நுழைவுச் சீட்டு. ஒருவர் உங்கள் அருகில் அமர்ந்து காட்டித் தருவார், பிறகு நீங்கள் உண்மையில் செய்தீர்களா என்று சரிபார்ப்பார்."
+ },
+ "\"I can't use a smartphone for business.\"": {
+  "si": "\"ව්‍යාපාරයට ස්මාට් ෆෝන් එකක් පාවිච්චි කරන්න මම දන්නේ නැහැ.\"",
+  "ta": "\"தொழிலுக்கு ஸ்மார்ட்போனைப் பயன்படுத்தத் தெரியாது.\""
+ },
+ "Day 3 task. Your Circle Champion walks you through it in Sinhala or Tamil.": {
+  "si": "3වන දින කාර්යය. ඔබේ කව නායකයා සිංහලෙන් හෝ දෙමළෙන් ඔබට එය කියා දෙයි.",
+  "ta": "3ஆம் நாள் பணி. உங்கள் வட்டப் பொறுப்பாளர் சிங்களத்திலோ தமிழிலோ கற்றுத் தருவார்."
+ },
+ "\"I don't know what to charge.\"": {
+  "si": "\"කීයක් ගන්න ඕනද කියලා මම දන්නේ නැහැ.\"",
+  "ta": "\"எவ்வளவு விலை வைப்பது என்று தெரியாது.\""
+ },
+ "Mission 2 is literally that. Every cost in, maths checked by your mentor.": {
+  "si": "දෙවන මෙහෙයුම හරියටම ඒකයි. සියලු වියදම් එකතු කර, ඔබේ උපදේශක ගණනය පරීක්ෂා කරයි.",
+  "ta": "இரண்டாவது பணி அதுதான். எல்லாச் செலவுகளையும் சேர்த்து, உங்கள் வழிகாட்டி கணக்கைச் சரிபார்ப்பார்."
+ },
+ "\"I'm too old to start.\"": {
+  "si": "\"ආරම්භ කරන්න මට වයස වැඩියි.\"",
+  "ta": "\"தொடங்க எனக்கு வயதாகிவிட்டது.\""
+ },
+ "The circle doesn't care about your age. It cares whether you did today's task.": {
+  "si": "කවයට ඔබේ වයස වැදගත් නැහැ. වැදගත් වන්නේ ඔබ අද කාර්යය කළාද යන්නයි.",
+  "ta": "வட்டத்திற்கு உங்கள் வயது முக்கியமில்லை. இன்றைய பணியைச் செய்தீர்களா என்பதுதான் முக்கியம்."
+ },
+ "Already happening": {
+  "si": "දැනටමත් සිදුවෙමින්",
+  "ta": "ஏற்கனவே நடக்கிறது"
+ },
+ "Future Life has been backing people like this for years.": {
+  "si": "Future Life වසර ගණනාවක් තිස්සේ මෙවැනි අයට සහාය දෙයි.",
+  "ta": "Future Life பல ஆண்டுகளாக இதுபோன்றவர்களுக்கு ஆதரவளித்து வருகிறது."
+ },
+ "Launchpad isn't a promise from a stranger. Future Life Investments already finances small businesses across the island, and celebrates its entrepreneurs at the FLi Diri Abhimani awards. Launchpad is how we find the next ones earlier.": {
+  "si": "Launchpad යනු නාඳුනන අයෙකුගේ පොරොන්දුවක් නොවේ. Future Life Investments දැනටමත් දිවයින පුරා කුඩා ව්‍යාපාරවලට මූල්‍ය සහාය දෙන අතර, FLi දිරි අභිමානී සම්මාන උළෙලේදී එහි ව්‍යවසායකයින් ඇගයීමට ලක් කරයි. Launchpad යනු ඊළඟ අය කලින්ම සොයා ගන්නා ආකාරයයි.",
+  "ta": "Launchpad ஒரு அந்நியரின் வாக்குறுதி அல்ல. Future Life Investments ஏற்கனவே தீவு முழுவதும் சிறு தொழில்களுக்கு நிதியளிக்கிறது, FLi திரி அபிமானி விருது விழாவில் அதன் தொழில்முனைவோரைக் கௌரவிக்கிறது. அடுத்தவர்களை முன்கூட்டியே கண்டறியும் வழிதான் Launchpad."
+ },
+ "Real · Diri Abhimani 2024": {
+  "si": "සැබෑ · දිරි අභිමානී 2024",
+  "ta": "உண்மை · திரி அபிமானி 2024"
+ },
+ "<b>Rs <span>300,000</span></b><br>Silver Dream Award winner, FLi Diri Abhimani 2024. Imagine your circle's graduate on this stage next year.": {
+  "si": "<b>රු. <span>300,000</span></b><br>Silver Dream සම්මානලාභී, FLi දිරි අභිමානී 2024. ලබන වසරේ ඔබේ කවයේ උපාධිධාරියා මෙම වේදිකාවේ සිතා බලන්න.",
+  "ta": "<b>ரூ. <span>300,000</span></b><br>Silver Dream விருது வென்றவர், FLi திரி அபிமானி 2024. அடுத்த ஆண்டு உங்கள் வட்டத்தின் பட்டதாரி இந்த மேடையில் நிற்பதைக் கற்பனை செய்யுங்கள்."
+ },
+ "Island-wide, not Colombo-only": {
+  "si": "කොළඹට පමණක් නොව, මුළු දිවයිනටම",
+  "ta": "கொழும்புக்கு மட்டுமல்ல, தீவு முழுவதும்"
+ },
+ "We're already in your town.": {
+  "si": "අපි දැනටමත් ඔබේ නගරයේ.",
+  "ta": "நாங்கள் ஏற்கனவே உங்கள் ஊரில்."
+ },
+ "The people who'll check your milestones aren't flying in. They're the Future Life teams already running branches and community programmes from the North to the South.": {
+  "si": "ඔබේ සන්ධිස්ථාන පරීක්ෂා කරන අය පිටින් පියාසර කර එන්නේ නැහැ. ඔවුන් උතුරේ සිට දකුණ දක්වා දැනටමත් ශාඛා සහ ප්‍රජා වැඩසටහන් පවත්වන Future Life කණ්ඩායම්ය.",
+  "ta": "உங்கள் இலக்குகளைச் சரிபார்ப்பவர்கள் வெளியிலிருந்து வருபவர்கள் அல்ல. வடக்கிலிருந்து தெற்கு வரை ஏற்கனவே கிளைகளையும் சமூகத் திட்டங்களையும் நடத்தும் Future Life குழுக்கள்தான்."
+ },
+ "Puthukudiyiruppu": {
+  "si": "පුදුකුඩියිරුප්පු",
+  "ta": "புதுக்குடியிருப்பு"
+ },
+ "Anuradhapura": {
+  "si": "අනුරාධපුර",
+  "ta": "அனுராதபுரம்"
+ },
+ "Kuliyapitiya": {
+  "si": "කුලියාපිටිය",
+  "ta": "குளியாப்பிட்டி"
+ },
+ "Gampaha": {
+  "si": "ගම්පහ",
+  "ta": "கம்பஹா"
+ },
+ "Mahara": {
+  "si": "මහර",
+  "ta": "மஹர"
+ },
+ "Kegalle": {
+  "si": "කෑගල්ල",
+  "ta": "கேகாலை"
+ },
+ "Nawalapitiya": {
+  "si": "නාවලපිටිය",
+  "ta": "நாவலப்பிட்டி"
+ },
+ "Nuwara Eliya": {
+  "si": "නුවරඑළිය",
+  "ta": "நுவரெலியா"
+ },
+ "Avissawella": {
+  "si": "අවිස්සාවේල්ල",
+  "ta": "அவிசாவளை"
+ },
+ "Not a course. A circle.": {
+  "si": "පාඨමාලාවක් නොවේ. කවයකි.",
+  "ta": "இது பாடநெறி அல்ல. ஒரு வட்டம்."
+ },
+ "Courses give you videos you never finish. Launchpad gives you a mentor who runs a real business, seven to nine people who notice when you go quiet, and one task every day. Which one changes behaviour?": {
+  "si": "පාඨමාලා ඔබ කිසිදා අවසන් නොකරන වීඩියෝ දෙයි. Launchpad ඔබට සැබෑ ව්‍යාපාරයක් පවත්වන උපදේශකයෙක්, ඔබ නිහඬ වූ විට එය දකින හත් අට දෙනෙක් සහ දිනපතා එක් කාර්යයක් දෙයි. හැසිරීම වෙනස් කරන්නේ කුමක්ද?",
+  "ta": "பாடநெறிகள் நீங்கள் முடிக்காத வீடியோக்களைத் தருகின்றன. Launchpad உண்மையான தொழில் நடத்தும் ஒரு வழிகாட்டியையும், நீங்கள் அமைதியானால் கவனிக்கும் ஏழெட்டு பேரையும், தினமும் ஒரு பணியையும் தருகிறது. எது நடத்தையை மாற்றும்?"
+ },
+ "Apply, free": {
+  "si": "නොමිලේ අයදුම් කරන්න",
+  "ta": "இலவசமாக விண்ணப்பியுங்கள்"
+ },
+ "Two minutes, in your language. Tell us what you sell, or want to sell. No business plan needed.": {
+  "si": "ඔබේ භාෂාවෙන් විනාඩි දෙකයි. ඔබ විකුණන හෝ විකිණීමට කැමති දේ අපට කියන්න. ව්‍යාපාර සැලැස්මක් අවශ්‍ය නැත.",
+  "ta": "உங்கள் மொழியில் இரண்டு நிமிடங்கள். நீங்கள் விற்பதை அல்லது விற்க விரும்புவதைச் சொல்லுங்கள். வணிகத் திட்டம் தேவையில்லை."
+ },
+ "Pick your mentor": {
+  "si": "ඔබේ උපදේශකයා තෝරන්න",
+  "ta": "உங்கள் வழிகாட்டியைத் தேர்ந்தெடுங்கள்"
+ },
+ "Vetted owners and executives. One rule they sign: no selling to mentees. Ever.": {
+  "si": "පරීක්ෂා කළ හිමිකරුවන් සහ විධායකයින්. ඔවුන් අත්සන් කරන එක් නීතියක්: ශිෂ්‍යයින්ට කිසිවක් විකිණීම තහනම්. කිසිදා.",
+  "ta": "சரிபார்க்கப்பட்ட உரிமையாளர்களும் நிர்வாகிகளும். அவர்கள் கையெழுத்திடும் ஒரே விதி: பயிற்சியாளர்களுக்கு எதையும் விற்கக் கூடாது. ஒருபோதும்."
+ },
+ "Run five missions": {
+  "si": "මෙහෙයුම් පහක් සම්පූර්ණ කරන්න",
+  "ta": "ஐந்து பணிகளை முடியுங்கள்"
+ },
+ "One per Future Life value. Upload proof, a Champion checks it, you earn points and a poster.": {
+  "si": "Future Life වටිනාකමකට එකක් බැගින්. සාක්ෂි උඩුගත කරන්න, කව නායකයා පරීක්ෂා කරයි, ඔබට ලකුණු සහ පෝස්ටරයක් ලැබේ.",
+  "ta": "ஒவ்வொரு Future Life மதிப்புக்கும் ஒன்று. ஆதாரத்தைப் பதிவேற்றுங்கள், பொறுப்பாளர் சரிபார்ப்பார், உங்களுக்குப் புள்ளிகளும் சுவரொட்டியும் கிடைக்கும்."
+ },
+ "Graduate into backing": {
+  "si": "සහාය සමඟ උපාධිය",
+  "ta": "ஆதரவுடன் பட்டம்"
+ },
+ "Pre-qualified business funding, marketing help, shelf space, software. Then come back and mentor.": {
+  "si": "පූර්ව සුදුසුකම් ලත් ව්‍යාපාර අරමුදල්, අලෙවි සහාය, රාක්ක ඉඩ, මෘදුකාංග. පසුව ආපසු ඇවිත් උපදේශනය කරන්න.",
+  "ta": "முன்தகுதி பெற்ற தொழில் நிதி, சந்தைப்படுத்தல் உதவி, கடை அலமாரி இடம், மென்பொருள். பிறகு திரும்பி வந்து வழிகாட்டுங்கள்."
+ },
+ "Innovation": {
+  "si": "නවෝත්පාදනය",
+  "ta": "புத்தாக்கம்"
+ },
+ "Find the gap": {
+  "si": "හිඩැස සොයන්න",
+  "ta": "இடைவெளியைக் கண்டறியுங்கள்"
+ },
+ "Interview 10 real customers and write down the one problem they will pay to fix.": {
+  "si": "සැබෑ පාරිභෝගිකයින් 10 දෙනෙකු සමඟ කතා කර, ඔවුන් විසඳීමට මුදල් ගෙවන එක් ගැටලුවක් ලියා ගන්න.",
+  "ta": "10 உண்மையான வாடிக்கையாளர்களிடம் பேசி, அவர்கள் பணம் கொடுத்துத் தீர்க்க விரும்பும் ஒரு பிரச்சினையை எழுதுங்கள்."
+ },
+ "Integrity": {
+  "si": "අවංකභාවය",
+  "ta": "நேர்மை"
+ },
+ "Say what it costs": {
+  "si": "මිල කියන්න",
+  "ta": "விலையைச் சொல்லுங்கள்"
+ },
+ "Price your product with every cost in, show your mentor the maths, and publish the price.": {
+  "si": "සියලු වියදම් ඇතුළත් කර ඔබේ නිෂ්පාදනයේ මිල නියම කරන්න, ගණනය උපදේශකයාට පෙන්වා මිල ප්‍රසිද්ධ කරන්න.",
+  "ta": "எல்லாச் செலவுகளையும் சேர்த்து விலை நிர்ணயியுங்கள், கணக்கை வழிகாட்டியிடம் காட்டி, விலையை வெளியிடுங்கள்."
+ },
+ "Win-Win": {
+  "si": "දෙපාර්ශවයටම ජය",
+  "ta": "இருவருக்கும் வெற்றி"
+ },
+ "Make the first sale": {
+  "si": "පළමු විකිණීම කරන්න",
+  "ta": "முதல் விற்பனையைச் செய்யுங்கள்"
+ },
+ "Sell to someone who is not family. Upload the proof, the payment and the thank you.": {
+  "si": "පවුලේ නොවන කෙනෙකුට විකුණන්න. සාක්ෂිය, ගෙවීම සහ ස්තූතිය උඩුගත කරන්න.",
+  "ta": "குடும்பத்தைச் சேராத ஒருவருக்கு விற்பனை செய்யுங்கள். ஆதாரம், கட்டணம், நன்றி ஆகியவற்றைப் பதிவேற்றுங்கள்."
+ },
+ "Growth": {
+  "si": "වර්ධනය",
+  "ta": "வளர்ச்சி"
+ },
+ "Repeat it": {
+  "si": "නැවත කරන්න",
+  "ta": "மீண்டும் செய்யுங்கள்"
+ },
+ "Hit a 4-week sales target your mentor set. Track every day in Squadli.": {
+  "si": "ඔබේ උපදේශකයා නියම කළ සති 4ක විකුණුම් ඉලක්කය සපුරන්න. සෑම දිනකම Squadli හි සටහන් කරන්න.",
+  "ta": "உங்கள் வழிகாட்டி நிர்ணயித்த 4 வார விற்பனை இலக்கை அடையுங்கள். தினமும் Squadli இல் பதிவு செய்யுங்கள்."
+ },
+ "Synergy": {
+  "si": "සහයෝගය",
+  "ta": "ஒருங்கிணைப்பு"
+ },
+ "Bring one more": {
+  "si": "තව කෙනෙක් රැගෙන එන්න",
+  "ta": "இன்னொருவரை அழைத்து வாருங்கள்"
+ },
+ "Refer another entrepreneur, or supply a Future Life unit. Your success makes room for someone else's.": {
+  "si": "තවත් ව්‍යවසායකයෙකු යොමු කරන්න, නැතහොත් Future Life ආයතනයකට සැපයුම් කරන්න. ඔබේ සාර්ථකත්වය තවත් කෙනෙකුට ඉඩ සලසයි.",
+  "ta": "இன்னொரு தொழில்முனைவோரைப் பரிந்துரையுங்கள், அல்லது Future Life நிறுவனத்திற்கு விநியோகம் செய்யுங்கள். உங்கள் வெற்றி இன்னொருவருக்கு இடம் தருகிறது."
+ },
+ "<b>The Kindness Pledge.</b> Miss a milestone and you pay a small accountability fine. Every rupee goes to Sathkaara, the group's charity. Not to us. Fair?": {
+  "si": "<b>කාරුණික පොරොන්දුව.</b> සන්ධිස්ථානයක් මග හැරුණොත් ඔබ කුඩා වගකීම් දඩයක් ගෙවයි. සෑම රුපියලක්ම සමූහයේ පුණ්‍ය ආයතනය වන සත්කාරට යයි. අපට නොවේ. සාධාරණද?",
+  "ta": "<b>கருணை உறுதிமொழி.</b> ஒரு இலக்கைத் தவறவிட்டால் சிறிய பொறுப்புக் கட்டணம் செலுத்துவீர்கள். ஒவ்வொரு ரூபாயும் குழுமத்தின் தொண்டு நிறுவனமான சத்கார வுக்குச் செல்லும். எங்களுக்கு அல்ல. நியாயம்தானே?"
+ },
+ "The Launchpad app": {
+  "si": "Launchpad ඇප් එක",
+  "ta": "Launchpad செயலி"
+ },
+ "Your mentor in your pocket. Your proof on the record.": {
+  "si": "ඔබේ උපදේශකයා ඔබේ සාක්කුවේ. ඔබේ සාක්ෂි වාර්තාගතව.",
+  "ta": "உங்கள் வழிகாட்டி உங்கள் பையில். உங்கள் ஆதாரம் பதிவில்."
+ },
+ "Any phone, three languages, built on Squadli, the system 600+ Future Life staff already use daily. WhatsApp nudges at 07:00 and 19:00. The app keeps score.": {
+  "si": "ඕනෑම දුරකථනයක, භාෂා තුනකින්, Future Life සේවකයින් 600කට වැඩි පිරිසක් දිනපතා භාවිත කරන Squadli මත ගොඩනැගූ. උදේ 7ට සහ රාත්‍රී 7ට WhatsApp මතක් කිරීම්. ලකුණු තබන්නේ ඇප් එකයි.",
+  "ta": "எந்தத் தொலைபேசியிலும், மூன்று மொழிகளில், 600க்கும் மேற்பட்ட Future Life ஊழியர்கள் தினமும் பயன்படுத்தும் Squadli மீது கட்டப்பட்டது. காலை 7 மற்றும் இரவு 7 மணிக்கு WhatsApp நினைவூட்டல்கள். புள்ளிகளைச் செயலி பதிவு செய்கிறது."
+ },
+ "Pick a mentor by face, not by brochure": {
+  "si": "පත්‍රිකාවකින් නොව, මුහුණෙන් උපදේශකයා තෝරන්න",
+  "ta": "விளம்பரத்தால் அல்ல, முகம் பார்த்து வழிகாட்டியைத் தேர்ந்தெடுங்கள்"
+ },
+ "See who they are, what they've built, and how many seats are left in their circle.": {
+  "si": "ඔවුන් කවුද, ගොඩනැගුවේ මොනවාද, ඔවුන්ගේ කවයේ ආසන කීයක් ඉතිරිද යන්න බලන්න.",
+  "ta": "அவர்கள் யார், என்ன கட்டியெழுப்பினார்கள், அவர்கள் வட்டத்தில் எத்தனை இடங்கள் மீதம் என்பதைப் பாருங்கள்."
+ },
+ "Proof, not promises": {
+  "si": "පොරොන්දු නොව, සාක්ෂි",
+  "ta": "வாக்குறுதி அல்ல, ஆதாரம்"
+ },
+ "Photo of the sale, the receipt, the happy customer. Champions approve every one, so your pre-qualification for business funding actually means something.": {
+  "si": "විකිණීමේ ඡායාරූපය, රිසිට්පත, සතුටු පාරිභෝගිකයා. කව නායකයින් සෑම එකක්ම අනුමත කරයි, ඒ නිසා ව්‍යාපාර අරමුදල් සඳහා ඔබේ පූර්ව සුදුසුකමට සැබෑ අර්ථයක් ඇත.",
+  "ta": "விற்பனையின் புகைப்படம், ரசீது, மகிழ்ச்சியான வாடிக்கையாளர். பொறுப்பாளர்கள் ஒவ்வொன்றையும் அங்கீகரிக்கிறார்கள், எனவே தொழில் நிதிக்கான உங்கள் முன்தகுதிக்கு உண்மையான அர்த்தம் உண்டு."
+ },
+ "Posters, points, and a charity pledge": {
+  "si": "පෝස්ටර්, ලකුණු සහ පුණ්‍ය පොරොන්දුවක්",
+  "ta": "சுவரொட்டிகள், புள்ளிகள், தொண்டு உறுதிமொழி"
+ },
+ "Wins you can print and pin up. Missed days that help someone else.": {
+  "si": "මුද්‍රණය කර එල්ලිය හැකි ජයග්‍රහණ. මග හැරුණු දින තවත් කෙනෙකුට උදව් වේ.",
+  "ta": "அச்சிட்டு மாட்டக்கூடிய வெற்றிகள். தவறவிட்ட நாட்கள் இன்னொருவருக்கு உதவுகின்றன."
+ },
+ "The Future Life ecosystem": {
+  "si": "Future Life පරිසර පද්ධතිය",
+  "ta": "Future Life குழுமம்"
+ },
+ "One brand. Nine ways to back you.": {
+  "si": "එක් සන්නාමයක්. ඔබට සහාය වීමට ක්‍රම නවයක්.",
+  "ta": "ஒரே பிராண்ட். உங்களுக்கு ஆதரவளிக்க ஒன்பது வழிகள்."
+ },
+ "Most programmes end at the certificate. Launchpad ends at a group of companies whose job is to make your business work. Each carries the Future Life name, so you always know who's behind it.": {
+  "si": "බොහෝ වැඩසටහන් සහතිකයෙන් අවසන් වේ. Launchpad අවසන් වන්නේ ඔබේ ව්‍යාපාරය සාර්ථක කිරීම කාර්යය වූ සමාගම් සමූහයකිනි. සෑම එකක්ම Future Life නාමය දරයි, ඒ නිසා ඔබ පිටුපස සිටින්නේ කවුදැයි ඔබ නිතරම දනී.",
+  "ta": "பெரும்பாலான திட்டங்கள் சான்றிதழுடன் முடிகின்றன. Launchpad உங்கள் தொழிலை வெற்றியடையச் செய்வதையே பணியாகக் கொண்ட நிறுவனங்களின் குழுமத்துடன் முடிகிறது. ஒவ்வொன்றும் Future Life பெயரைத் தாங்குகிறது, எனவே உங்களுக்குப் பின்னால் யார் என்பது எப்போதும் தெரியும்."
+ },
+ "Finance that follows the proof": {
+  "si": "සාක්ෂි අනුගමනය කරන මූල්‍යකරණය",
+  "ta": "ஆதாரத்தைப் பின்தொடரும் நிதி"
+ },
+ "FLI and NBSL. Graduates who complete 80% of their milestones leave pre-qualified for business funding. Nobody is ever obliged to borrow.": {
+  "si": "FLI සහ NBSL. සන්ධිස්ථානවලින් 80%ක් සම්පූර්ණ කරන උපාධිධාරීන් ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් ලබයි. කිසිවෙකුට ණය ගැනීමට බල කෙරෙන්නේ නැත.",
+  "ta": "FLI மற்றும் NBSL. 80% இலக்குகளை முடிக்கும் பட்டதாரிகள் தொழில் நிதிக்கு முன்தகுதி பெறுகிறார்கள். யாரும் கடன் வாங்கக் கட்டாயப்படுத்தப்படுவதில்லை."
+ },
+ "Business Builder software": {
+  "si": "Business Builder මෘදුකාංගය",
+  "ta": "Business Builder மென்பொருள்"
+ },
+ "Built by Evoke. A Sinhala-first toolkit for running a small business: orders on WhatsApp, simple books, customer lists, and Builder Rewards baked in.": {
+  "si": "Evoke විසින් ගොඩනැගූ. කුඩා ව්‍යාපාරයක් පවත්වාගෙන යාමට සිංහලෙන් මුල්තැන දෙන මෙවලම්: WhatsApp ඇණවුම්, සරල ගිණුම්, පාරිභෝගික ලැයිස්තු සහ Builder Rewards.",
+  "ta": "Evoke உருவாக்கியது. சிறு தொழில் நடத்த சிங்களத்தை முதன்மையாகக் கொண்ட கருவிகள்: WhatsApp ஆர்டர்கள், எளிய கணக்குகள், வாடிக்கையாளர் பட்டியல்கள், Builder Rewards."
+ },
+ "Get seen, get customers": {
+  "si": "පෙනී සිටින්න, පාරිභෝගිකයින් ලබා ගන්න",
+  "ta": "தெரியுங்கள், வாடிக்கையாளர்களைப் பெறுங்கள்"
+ },
+ "Adsstore runs the digital marketing and trains graduates to promote their own business on Facebook and YouTube. Adswave puts the best ones on billboards. Liyasi TV tells their story.": {
+  "si": "Adsstore ඩිජිටල් අලෙවිකරණය කරන අතර උපාධිධාරීන්ට තම ව්‍යාපාරය Facebook සහ YouTube හරහා ප්‍රවර්ධනය කිරීමට පුහුණු කරයි. Adswave හොඳම අය දැන්වීම් පුවරුවලට ගෙන එයි. Liyasi TV ඔවුන්ගේ කතාව කියයි.",
+  "ta": "Adsstore டிஜிட்டல் சந்தைப்படுத்தலை நடத்துகிறது, பட்டதாரிகளுக்கு Facebook, YouTube மூலம் தங்கள் தொழிலை விளம்பரப்படுத்தப் பயிற்சி அளிக்கிறது. Adswave சிறந்தவர்களை விளம்பரப் பலகைகளில் கொண்டுவருகிறது. Liyasi TV அவர்கள் கதையைச் சொல்கிறது."
+ },
+ "Skills that pay back": {
+  "si": "ප්‍රතිලාභ ලබා දෙන කුසලතා",
+  "ta": "பலன் தரும் திறன்கள்"
+ },
+ "IDEAS delivers practical training and the coaching certification that turns branch staff into Circle Champions and mentors.": {
+  "si": "IDEAS ප්‍රායෝගික පුහුණුව සහ ශාඛා කාර්ය මණ්ඩලය කව නායකයින් සහ උපදේශකයින් බවට පත් කරන පුහුණු සහතිකය ලබා දෙයි.",
+  "ta": "IDEAS நடைமுறைப் பயிற்சியையும், கிளை ஊழியர்களை வட்டப் பொறுப்பாளர்களாகவும் வழிகாட்டிகளாகவும் மாற்றும் பயிற்சிச் சான்றிதழையும் வழங்குகிறது."
+ },
+ "Where Launchpad meets": {
+  "si": "Launchpad හමුවන තැන",
+  "ta": "Launchpad சந்திக்கும் இடம்"
+ },
+ "Every intake event and circle meeting is held at a CLIO property. Graduate products go into CLIO rooms and Smart Travels experiences.": {
+  "si": "සෑම කණ්ඩායම් උත්සවයක්ම සහ කව රැස්වීමක්ම CLIO දේපලක පැවැත්වේ. උපාධිධාරී නිෂ්පාදන CLIO කාමරවලට සහ Smart Travels අත්දැකීම්වලට එක් වේ.",
+  "ta": "ஒவ்வொரு தொகுதி நிகழ்வும் வட்டக் கூட்டமும் CLIO விடுதியில் நடைபெறும். பட்டதாரிகளின் தயாரிப்புகள் CLIO அறைகளிலும் Smart Travels அனுபவங்களிலும் இடம்பெறும்."
+ },
+ "A shelf with your name on it": {
+  "si": "ඔබේ නම සහිත රාක්කයක්",
+  "ta": "உங்கள் பெயருடன் ஒரு அலமாரி"
+ },
+ "Future Life supermarkets, FLiCo electronics and Agro. Graduates earn a Made by a Launchpad Graduate shelf and a route to real customers.": {
+  "si": "Future Life සුපිරි වෙළඳසැල්, FLiCo ඉලෙක්ට්‍රොනික සහ Agro. උපාධිධාරීන්ට Launchpad උපාධිධාරී නිෂ්පාදන රාක්කයක් සහ සැබෑ පාරිභෝගිකයින් වෙත මගක් ලැබේ.",
+  "ta": "Future Life சூப்பர் மார்க்கெட்டுகள், FLiCo மின்னணு, Agro. பட்டதாரிகளுக்கு Launchpad பட்டதாரி தயாரிப்பு அலமாரியும் உண்மையான வாடிக்கையாளர்களுக்கான வழியும் கிடைக்கும்."
+ },
+ "Build the physical business": {
+  "si": "භෞතික ව්‍යාපාරය ගොඩනගන්න",
+  "ta": "நேரடித் தொழிலைக் கட்டியெழுப்புங்கள்"
+ },
+ "Engineering and property. Fit-outs, small premises and the practical side of turning an online hustle into a shop with a door.": {
+  "si": "ඉංජිනේරු සහ දේපළ. ඇතුළත සැකසුම්, කුඩා ස්ථාන සහ ඔන්ලයින් වෙළඳාමක් දොරක් ඇති කඩයක් බවට පත් කිරීමේ ප්‍රායෝගික පැත්ත.",
+  "ta": "பொறியியல் மற்றும் சொத்து. உள் அலங்காரம், சிறிய இடங்கள், ஆன்லைன் வியாபாரத்தை கதவுள்ள கடையாக மாற்றும் நடைமுறைப் பக்கம்."
+ },
+ "One loyalty spine for the group": {
+  "si": "සමූහයටම එක් පක්ෂපාතී පද්ධතියක්",
+  "ta": "குழுமம் முழுவதற்கும் ஒரே விசுவாசத் திட்டம்"
+ },
+ "The rewards app, reworked across every Future Life unit. Graduates get a merchant account, so 100,000+ members discover their businesses.": {
+  "si": "සෑම Future Life ආයතනයක් පුරාම නැවත සකස් කළ ත්‍යාග ඇප් එක. උපාධිධාරීන්ට වෙළෙන්දා ගිණුමක් ලැබෙන නිසා සාමාජිකයින් 100,000කට වැඩි පිරිසකට ඔවුන්ගේ ව්‍යාපාර සොයා ගත හැක.",
+  "ta": "ஒவ்வொரு Future Life நிறுவனத்திலும் மாற்றியமைக்கப்பட்ட வெகுமதிச் செயலி. பட்டதாரிகளுக்கு வணிகர் கணக்கு கிடைப்பதால் 100,000க்கும் மேற்பட்ட உறுப்பினர்கள் அவர்கள் தொழிலைக் கண்டறிவார்கள்."
+ },
+ "The Kindness Pledge": {
+  "si": "කාරුණික පොරොන්දුව",
+  "ta": "கருணை உறுதிமொழி"
+ },
+ "Miss a milestone and your accountability fine goes 100% to Sathkaara, the group's charity arm. Not a penalty for Future Life. A gift to someone who needs it.": {
+  "si": "සන්ධිස්ථානයක් මග හැරුණොත් ඔබේ වගකීම් දඩය 100%ක්ම සමූහයේ පුණ්‍ය අංශය වන සත්කාරට යයි. Future Life සඳහා දඬුවමක් නොව, අවශ්‍ය කෙනෙකුට තෑග්ගකි.",
+  "ta": "ஒரு இலக்கைத் தவறவிட்டால் உங்கள் பொறுப்புக் கட்டணம் 100% குழுமத்தின் தொண்டுப் பிரிவான சத்கார வுக்குச் செல்லும். Future Life க்கான தண்டனை அல்ல, தேவைப்படுபவருக்கு ஒரு பரிசு."
+ },
+ "Pre-qualified business funding": {
+  "si": "පූර්ව සුදුසුකම් ලත් ව්‍යාපාර අරමුදල්",
+  "ta": "முன்தகுதி பெற்ற தொழில் நிதி"
+ },
+ "Graduate <em>pre-qualified</em><br>for business funding.": {
+  "si": "ව්‍යාපාර අරමුදල් සඳහා<br><em>පූර්ව සුදුසුකම්</em> සමඟ උපාධිය ලබන්න.",
+  "ta": "தொழில் நிதிக்கு<br><em>முன்தகுதியுடன்</em> பட்டம் பெறுங்கள்."
+ },
+ "Complete 80% of your milestones and you leave Launchpad pre‑qualified for Future Life business funding. Your eight weeks of proof becomes your application, so you skip the queue. Final approval follows FLI's standard credit check, and nobody is ever obliged to borrow.": {
+  "si": "ඔබේ සන්ධිස්ථානවලින් 80%ක් සම්පූර්ණ කළොත් ඔබ Future Life ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් සමඟ Launchpad හැර යයි. ඔබේ සති අටක සාක්ෂි ඔබේ අයදුම්පත බවට පත්වන නිසා පෝලිම මඟ හැරේ. අවසන් අනුමැතිය FLI හි සාමාන්‍ය ණය පරීක්ෂාවට අනුව සිදු වන අතර, කිසිවෙකුට ණය ගැනීමට බල කෙරෙන්නේ නැත.",
+  "ta": "உங்கள் இலக்குகளில் 80% முடித்தால், Future Life தொழில் நிதிக்கு முன்தகுதியுடன் Launchpad இலிருந்து வெளியேறுவீர்கள். உங்கள் எட்டு வார ஆதாரமே உங்கள் விண்ணப்பம் ஆவதால் வரிசையில் காத்திருக்க வேண்டியதில்லை. இறுதி ஒப்புதல் FLI இன் வழக்கமான கடன் மதிப்பீட்டின்படி நடக்கும், யாரும் கடன் வாங்கக் கட்டாயப்படுத்தப்படுவதில்லை."
+ },
+ "Founding mentors": {
+  "si": "ආරම්භක උපදේශකයින්",
+  "ta": "நிறுவன வழிகாட்டிகள்"
+ },
+ "People who run things.<br>Not people who sell courses.": {
+  "si": "දේවල් පවත්වාගෙන යන අය.<br>පාඨමාලා විකුණන අය නොවේ.",
+  "ta": "காரியங்களை நடத்துபவர்கள்.<br>பாடநெறி விற்பவர்கள் அல்ல."
+ },
+ "Unpaid, vetted, and recruited city by city, including women mentors for the women's track.": {
+  "si": "වැටුප් නොලබන, පරීක්ෂා කළ, නගරයෙන් නගරයට බඳවා ගන්නා, කාන්තා අංශය සඳහා කාන්තා උපදේශිකාවන් ද ඇතුළුව.",
+  "ta": "ஊதியம் பெறாத, சரிபார்க்கப்பட்ட, நகரம் நகரமாகச் சேர்க்கப்படும், பெண்கள் பிரிவுக்கான பெண் வழிகாட்டிகள் உட்பட."
+ },
+ "Founder, Directive Communication Psychology": {
+  "si": "ආරම්භක, Directive Communication Psychology",
+  "ta": "நிறுவனர், Directive Communication Psychology"
+ },
+ "Ranked Global Gurus #1 in Organizational Culture. Creator of the Colored Brain and Squadli. Will absolutely end up standing on a table at your launch event.": {
+  "si": "සංවිධාන සංස්කෘතිය පිළිබඳ Global Gurus #1 ස්ථානය. Colored Brain සහ Squadli හි නිර්මාතෘ. ඔබේ දියත් කිරීමේ උත්සවයේදී අනිවාර්යයෙන්ම මේසයක් මතට නගිනු ඇත.",
+  "ta": "நிறுவனக் கலாச்சாரத்தில் Global Gurus #1 இடம். Colored Brain மற்றும் Squadli உருவாக்கியவர். உங்கள் தொடக்க நிகழ்வில் நிச்சயம் மேசை மீது ஏறி நிற்பார்."
+ },
+ "Group CEO, Future Life Holdings": {
+  "si": "සමූහ ප්‍රධාන විධායක, Future Life Holdings",
+  "ta": "குழும தலைமை நிர்வாக அதிகாரி, Future Life Holdings"
+ },
+ "Built Future Life around one idea: an ecosystem that makes entrepreneurship possible for people who never thought they had the chance.": {
+  "si": "Future Life ගොඩනැගුවේ එක් අදහසක් වටා: කවදාවත් අවස්ථාවක් ඇතැයි නොසිතූ අයට ව්‍යවසායකත්වය හැකි කරන පරිසර පද්ධතියක්.",
+  "ta": "Future Life ஒரே யோசனையைச் சுற்றிக் கட்டப்பட்டது: வாய்ப்பு இருப்பதாக ஒருபோதும் நினைக்காதவர்களுக்கு தொழில்முனைவை சாத்தியமாக்கும் ஒரு சூழல்."
+ },
+ "Group CMO, Future Life": {
+  "si": "සමූහ ප්‍රධාන අලෙවි නිලධාරී, Future Life",
+  "ta": "குழும தலைமை சந்தைப்படுத்தல் அதிகாரி, Future Life"
+ },
+ "10+ years in finance. Knows exactly what a lender looks for, and will teach you to look like it.": {
+  "si": "මූල්‍ය ක්ෂේත්‍රයේ වසර 10කට වැඩි අත්දැකීම්. ණය දෙන්නෙක් සොයන්නේ කුමක්දැයි හරියටම දන්නා අතර, ඔබට එලෙස පෙනී සිටීමට උගන්වයි.",
+  "ta": "நிதித் துறையில் 10+ ஆண்டுகள். கடன் வழங்குநர் எதைத் தேடுகிறார் என்பது அவருக்குத் துல்லியமாகத் தெரியும், அப்படித் தோன்ற உங்களுக்குக் கற்றுத் தருவார்."
+ },
+ "Head of Group Strategic Marketing &amp; Corporate Sales": {
+  "si": "සමූහ උපායමාර්ගික අලෙවි සහ ආයතනික විකුණුම් ප්‍රධානී",
+  "ta": "குழும மூலோபாய சந்தைப்படுத்தல் மற்றும் நிறுவன விற்பனைத் தலைவர்"
+ },
+ "Runs marketing for the whole group. Your shortcut to getting a small business noticed in Sri Lanka.": {
+  "si": "මුළු සමූහයේම අලෙවිකරණය මෙහෙයවයි. ශ්‍රී ලංකාවේ කුඩා ව්‍යාපාරයක් කැපී පෙනෙන්නට ඔබේ කෙටි මග.",
+  "ta": "முழுக் குழுமத்தின் சந்தைப்படுத்தலையும் நடத்துகிறார். இலங்கையில் சிறு தொழில் கவனிக்கப்பட உங்கள் குறுக்கு வழி."
+ },
+ "Straight answers": {
+  "si": "කෙළින්ම පිළිතුරු",
+  "ta": "நேரடிப் பதில்கள்"
+ },
+ "The questions you're already asking.": {
+  "si": "ඔබ දැනටමත් අසන ප්‍රශ්න.",
+  "ta": "நீங்கள் ஏற்கனவே கேட்கும் கேள்விகள்."
+ },
+ "Is it really free?": {
+  "si": "ඇත්තටම නොමිලේද?",
+  "ta": "உண்மையிலேயே இலவசமா?"
+ },
+ "Yes. No fee, no deposit. The only money that ever moves is the Kindness Pledge fine if you miss a milestone, and all of it goes to Sathkaara.": {
+  "si": "ඔව්. ගාස්තුවක් නැත, තැන්පතුවක් නැත. ඔබ සන්ධිස්ථානයක් මග හැරියොත් කාරුණික පොරොන්දු දඩය පමණක් ගෙවිය යුතු අතර, එය සම්පූර්ණයෙන්ම සත්කාරට යයි.",
+  "ta": "ஆம். கட்டணம் இல்லை, வைப்புத் தொகை இல்லை. நீங்கள் ஒரு இலக்கைத் தவறவிட்டால் மட்டுமே கருணை உறுதிமொழிக் கட்டணம், அதுவும் முழுமையாக சத்கார வுக்குச் செல்லும்."
+ },
+ "I'm over 60. Is this really for me?": {
+  "si": "මට වයස 60ට වැඩියි. මෙය ඇත්තටම මට ගැළපේද?",
+  "ta": "எனக்கு 60 வயதுக்கு மேல். இது உண்மையில் எனக்கானதா?"
+ },
+ "Yes. Retirees bring savings, patience and networks that twenty-somethings would kill for. Your circle will need you as much as you need it.": {
+  "si": "ඔව්. විශ්‍රාමිකයින් තරුණයින් ආශා කරන ඉතිරි කිරීම්, ඉවසීම සහ සම්බන්ධතා ගෙන එයි. ඔබට කවය අවශ්‍ය තරමටම කවයටත් ඔබ අවශ්‍යයි.",
+  "ta": "ஆம். ஓய்வுபெற்றவர்கள் இளைஞர்கள் ஏங்கும் சேமிப்பு, பொறுமை, தொடர்புகளைக் கொண்டு வருகிறார்கள். உங்களுக்கு வட்டம் தேவைப்படுவது போலவே வட்டத்திற்கும் நீங்கள் தேவை."
+ },
+ "Do I have to take a loan?": {
+  "si": "මට ණයක් ගන්නම වෙනවද?",
+  "ta": "நான் கடன் வாங்கியே ஆக வேண்டுமா?"
+ },
+ "No. Finishing Launchpad pre-qualifies you for Future Life business funding if you want it. Approval still follows FLI's normal credit check. Nothing is conditional on borrowing, and no mentor is measured on loans.": {
+  "si": "නැත. Launchpad අවසන් කිරීමෙන් ඔබට අවශ්‍ය නම් Future Life ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් ලැබේ. අනුමැතිය FLI හි සාමාන්‍ය ණය පරීක්ෂාවට අනුව සිදු වේ. කිසිවක් ණය ගැනීම මත රඳා නොපවතින අතර, කිසිදු උපදේශකයෙකු ණය මත මනිනු නොලැබේ.",
+  "ta": "இல்லை. Launchpad ஐ முடித்தால், நீங்கள் விரும்பினால் Future Life தொழில் நிதிக்கு முன்தகுதி பெறுவீர்கள். ஒப்புதல் FLI இன் வழக்கமான கடன் மதிப்பீட்டின்படி நடக்கும். எதுவும் கடன் வாங்குவதைச் சார்ந்ததல்ல, எந்த வழிகாட்டியும் கடன்களின் அடிப்படையில் மதிப்பிடப்படுவதில்லை."
+ },
+ "What does Future Life actually get?": {
+  "si": "Future Life ඇත්තටම ලබන්නේ කුමක්ද?",
+  "ta": "Future Life க்கு உண்மையில் என்ன கிடைக்கிறது?"
+ },
+ "Entrepreneurs who've proven they can execute. Some become customers, some borrow, some supply our shelves and hotels. All of them make the Future Life name mean something in their town. We'd rather say that than have you guess it.": {
+  "si": "ක්‍රියාත්මක කළ හැකි බව ඔප්පු කළ ව්‍යවසායකයින්. සමහරු පාරිභෝගිකයින් වෙති, සමහරු ණය ගනිති, සමහරු අපේ රාක්ක සහ හෝටල්වලට සැපයුම් කරති. ඔවුන් සියල්ලම තම නගරයේ Future Life නාමයට අර්ථයක් දෙති. ඔබ අනුමාන කරනවාට වඩා අපි එය කෙළින්ම කියමු.",
+  "ta": "செயல்படுத்த முடியும் என்று நிரூபித்த தொழில்முனைவோர். சிலர் வாடிக்கையாளர்களாகிறார்கள், சிலர் கடன் வாங்குகிறார்கள், சிலர் எங்கள் அலமாரிகளுக்கும் விடுதிகளுக்கும் விநியோகிக்கிறார்கள். அனைவரும் தங்கள் ஊரில் Future Life பெயருக்கு அர்த்தம் தருகிறார்கள். நீங்கள் ஊகிப்பதை விட நாங்களே நேரடியாகச் சொல்கிறோம்."
+ },
+ "Where and when?": {
+  "si": "කොහේද, කවදාද?",
+  "ta": "எங்கே, எப்போது?"
+ },
+ "Circles meet at CLIO properties in the intake city, with daily tasks on your phone in between. Sinhala first, with Tamil circles in the second intake.": {
+  "si": "කව රැස්වීම් කණ්ඩායම් නගරයේ CLIO දේපලවල පැවැත්වෙන අතර, අතරතුර දිනපතා කාර්යයන් ඔබේ දුරකථනයෙන්. මුලින් සිංහලෙන්, දෙවන කණ්ඩායමේදී දෙමළ කව.",
+  "ta": "வட்டக் கூட்டங்கள் தொகுதி நகரத்தின் CLIO விடுதிகளில் நடைபெறும், இடையில் தினசரிப் பணிகள் உங்கள் தொலைபேசியில். முதலில் சிங்களம், இரண்டாவது தொகுதியில் தமிழ் வட்டங்கள்."
+ },
+ "Your business. <em>Built here.</em>": {
+  "si": "ඔබේ ව්‍යාපාරය. <em>මෙහිම ගොඩනැගූ.</em>",
+  "ta": "உங்கள் தொழில். <em>இங்கேயே கட்டியெழுப்பப்பட்டது.</em>"
+ },
+ "First intake opens soon. Leave your number and we'll WhatsApp you when your district opens.": {
+  "si": "පළමු කණ්ඩායම ළඟදීම ආරම්භ වේ. ඔබේ අංකය තබන්න, ඔබේ දිස්ත්‍රික්කය විවෘත වූ විට අපි WhatsApp කරන්නම්.",
+  "ta": "முதல் தொகுதி விரைவில் தொடங்கும். உங்கள் எண்ணைத் தாருங்கள், உங்கள் மாவட்டம் திறக்கும்போது WhatsApp செய்கிறோம்."
+ },
+ "Notify me": {
+  "si": "මට දන්වන්න",
+  "ta": "எனக்குத் தெரிவியுங்கள்"
+ },
+ "Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you unless you tick that box separately when you apply.": {
+  "si": "Future Life Launchpad වැඩසටහන ගැන ඔබව සම්බන්ධ කර ගත හැක. ඕනෑම වේලාවක ඉවත් විය හැක. ඔබ අයදුම් කරන විට වෙනම කොටුව සලකුණු නොකළහොත් වෙනත් කිසිදු Future Life සමාගමක් ඔබව සම්බන්ධ කර නොගනී.",
+  "ta": "திட்டம் குறித்து Future Life Launchpad உங்களைத் தொடர்பு கொள்ளலாம். எப்போது வேண்டுமானாலும் விலகலாம். விண்ணப்பிக்கும்போது தனிப் பெட்டியைக் குறிக்காவிட்டால் வேறு எந்த Future Life நிறுவனமும் உங்களைத் தொடர்பு கொள்ளாது."
+ },
+ "Empowering People · Building Futures<br>© 2026 Future Life Holdings, Sri Lanka": {
+  "si": "ජනතාව සවිබල ගැන්වීම · අනාගතය ගොඩනැගීම<br>© 2026 Future Life Holdings, ශ්‍රී ලංකාව",
+  "ta": "மக்களை வலுப்படுத்துதல் · எதிர்காலத்தைக் கட்டியெழுப்புதல்<br>© 2026 Future Life Holdings, இலங்கை"
+ },
+ "✦ marks illustrations of the people Launchpad is for. Other photos are of real Future Life customers, award winners and teams.": {
+  "si": "✦ ලකුණ Launchpad කා සඳහාද යන්න පෙන්වන නිදර්ශන දක්වයි. අනෙක් ඡායාරූප සැබෑ Future Life පාරිභෝගිකයින්, සම්මානලාභීන් සහ කණ්ඩායම්ය.",
+  "ta": "✦ குறி Launchpad யாருக்கானது என்பதைக் காட்டும் விளக்கப் படங்களைக் குறிக்கிறது. மற்ற படங்கள் உண்மையான Future Life வாடிக்கையாளர்கள், விருது வென்றவர்கள், குழுக்கள்."
+ },
+ "Hear it from them": {
+  "si": "ඔවුන්ගෙන්ම අසන්න",
+  "ta": "அவர்களிடமே கேளுங்கள்"
+ },
+ "Three people. Three ages.<br>One way to build.": {
+  "si": "තුන් දෙනෙක්. වයස් තුනක්.<br>ගොඩනගන්න එක ක්‍රමයක්.",
+  "ta": "மூன்று பேர். மூன்று வயதுகள்.<br>கட்டியெழுப்ப ஒரே வழி."
+ },
+ "Under a minute each, in Sinhala. Subtitles follow the language you pick at the top.": {
+  "si": "එක එකක් විනාඩියකට අඩුයි, සිංහලෙන්. උපසිරැසි ඉහළින් ඔබ තෝරන භාෂාවට අනුව වෙනස් වේ.",
+  "ta": "ஒவ்வொன்றும் ஒரு நிமிடத்துக்குள், சிங்களத்தில். மேலே நீங்கள் தேர்ந்தெடுக்கும் மொழியில் வசனங்கள் தோன்றும்."
+ },
+ "Nimal, 23": {
+  "si": "නිමල්, 23",
+  "ta": "நிமல், 23"
+ },
+ "Young entrepreneur, Kurunegala. Why you don't build big alone.": {
+  "si": "තරුණ ව්‍යාපාරිකයෙක්, කුරුණෑගල. ලොකු ව්‍යාපාරයක් තනියම හදන්නේ නැත්තේ ඇයි.",
+  "ta": "இளம் தொழில்முனைவோர், குருநாகல். பெரிய தொழிலைத் தனியாகக் கட்டுவதில்லை ஏன்."
+ },
+ "Coming soon": {
+  "si": "ළඟදීම",
+  "ta": "விரைவில்"
+ },
+ "An older woman": {
+  "si": "වැඩිහිටි කාන්තාවක්",
+  "ta": "ஒரு மூத்த பெண்"
+ },
+ "Starting after sixty, and why the circle needs her.": {
+  "si": "හැටෙන් පසු ආරම්භ කිරීම, සහ කවයට ඇය අවශ්‍ය ඇයි.",
+  "ta": "அறுபதுக்குப் பிறகு தொடங்குவது, வட்டத்திற்கு அவர் ஏன் தேவை."
+ },
+ "A young woman": {
+  "si": "තරුණියක්",
+  "ta": "ஒரு இளம் பெண்"
+ },
+ "Building from home, and the deals she'd never get alone.": {
+  "si": "නිවසේ සිට ගොඩනැගීම, සහ තනියම කවදාවත් නොලැබෙන ගනුදෙනු.",
+  "ta": "வீட்டிலிருந்து கட்டியெழுப்புவது, தனியாக ஒருபோதும் கிடைக்காத ஒப்பந்தங்கள்."
+ },
+ "✦ Nimal is an AI presenter created to explain Launchpad. He is not a programme graduate.": {
+  "si": "✦ නිමල් යනු Launchpad පැහැදිලි කිරීමට නිර්මාණය කළ AI ඉදිරිපත් කරන්නෙකි. ඔහු වැඩසටහනේ උපාධිධාරියෙක් නොවේ.",
+  "ta": "✦ நிமல் Launchpad ஐ விளக்க உருவாக்கப்பட்ட AI தொகுப்பாளர். அவர் திட்டத்தின் பட்டதாரி அல்ல."
+ },
+ "<i>▶</i> Watch Nimal · 53 sec": {
+  "si": "<i>▶</i> නිමල් බලන්න · තත්පර 53",
+  "ta": "<i>▶</i> நிமலைப் பாருங்கள் · 53 வினாடி"
+ },
+ "Some photos on this page are AI illustrations of the people Launchpad is for. Photos marked Real are actual Future Life customers.": {
+  "si": "මෙම පිටුවේ සමහර ඡායාරූප Launchpad කා සඳහාද යන්න පෙන්වන AI නිදර්ශන වේ. සැබෑ ලෙස සලකුණු කළ ඡායාරූප සැබෑ Future Life පාරිභෝගිකයින්ය.",
+  "ta": "இந்தப் பக்கத்தில் உள்ள சில படங்கள் Launchpad யாருக்கானது என்பதைக் காட்டும் AI விளக்கப் படங்கள். உண்மை எனக் குறிக்கப்பட்ட படங்கள் உண்மையான Future Life வாடிக்கையாளர்கள்."
+ },
+ "Some images on this page are AI illustrations of the people Launchpad is for. Other photos are of real Future Life customers, award winners and teams.": {
+  "si": "මෙම පිටුවේ සමහර රූප Launchpad කා සඳහාද යන්න පෙන්වන AI නිදර්ශන වේ. අනෙක් ඡායාරූප සැබෑ Future Life පාරිභෝගිකයින්, සම්මානලාභීන් සහ කණ්ඩායම්ය.",
+  "ta": "இந்தப் பக்கத்தில் உள்ள சில படங்கள் Launchpad யாருக்கானது என்பதைக் காட்டும் AI விளக்கப் படங்கள். மற்ற படங்கள் உண்மையான Future Life வாடிக்கையாளர்கள், விருது வென்றவர்கள், குழுக்கள்."
+ },
+ "Nimal is an AI presenter created to explain Launchpad. He is not a programme graduate.": {
+  "si": "නිමල් යනු Launchpad පැහැදිලි කිරීමට නිර්මාණය කළ AI ඉදිරිපත් කරන්නෙකි. ඔහු වැඩසටහනේ උපාධිධාරියෙක් නොවේ.",
+  "ta": "நிமல் Launchpad ஐ விளக்க உருவாக்கப்பட்ட AI தொகுப்பாளர். அவர் திட்டத்தின் பட்டதாரி அல்ல."
+ },
+ "Some images on this website are created or enhanced with AI.": {
+  "si": "මෙම වෙබ් අඩවියේ සමහර රූප AI මගින් නිර්මාණය කර හෝ වැඩිදියුණු කර ඇත.",
+  "ta": "இந்த இணையதளத்தில் உள்ள சில படங்கள் AI மூலம் உருவாக்கப்பட்டவை அல்லது மேம்படுத்தப்பட்டவை."
+ }
+}
