@@ -1,22 +1,8 @@
 'use client';
 
 import { useEffect } from 'react';
-import I18N from '@/content/i18n.json';
-
-type Lang = 'en' | 'si' | 'ta';
-const dict = I18N as Record<string, Partial<Record<Lang, string>>>;
-
-const t = (en: string): string => {
-  const l = (document.documentElement.lang || 'en') as Lang;
-  return (l !== 'en' && dict[en]?.[l]) || en;
-};
-
-// Sri Lankan numbers: 0771234567, 077 123 4567, +94771234567, 94771234567 (mobile or landline)
-const normalizePhone = (raw: string): string | null => {
-  const digits = raw.replace(/[\s\-().]/g, '');
-  const m = /^(?:\+94|94|0)?([1-9]\d{8})$/.exec(digits);
-  return m ? `+94${m[1]}` : null;
-};
+import { t } from '@/lib/i18n';
+import { normalizePhone } from '@/lib/phone';
 
 const NAME_RE = /^[\p{L}\p{M}][\p{L}\p{M}\s.'’-]{1,79}$/u;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;

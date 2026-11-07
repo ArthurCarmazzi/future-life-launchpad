@@ -147,7 +147,8 @@
   <img src="/img/r_weavers.jpg" alt="">
   <div class="wrap"><h2>Your business. <em>Built here.</em></h2>
   <p>First intake opens soon. Leave your number and we'll WhatsApp you when your district opens.</p>
-  <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Got it. Talk soon.';">
-    <input type="tel" placeholder="WhatsApp number" aria-label="WhatsApp number"><button class="btn" type="submit">Notify me</button></form>
+  <form id="notifyForm" novalidate>
+    <input type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="WhatsApp number" aria-label="WhatsApp number"><button class="btn" type="submit">Notify me</button></form>
+  <span class="nmsg" id="notifyMsg" role="alert"></span>
   <small>Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you unless you tick that box separately when you apply.</small></div>
 </section>
