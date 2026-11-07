@@ -727,12 +727,16 @@
   "si": "සමාවන්න, ඔබේ අයදුම්පත යැවීමට නොහැකි විය. මොහොතකින් නැවත උත්සාහ කරන්න.",
   "ta": "மன்னிக்கவும், உங்கள் விண்ணப்பத்தை அனுப்ப முடியவில்லை. சிறிது நேரத்தில் மீண்டும் முயற்சிக்கவும்."
  },
- "Hi Future Life Launchpad! Please WhatsApp me when the first intake opens in my district. My number: {number}": {
-  "si": "ආයුබෝවන් Future Life Launchpad! පළමු කණ්ඩායම මගේ දිස්ත්‍රික්කයේ ආරම්භ වූ විට කරුණාකර මට WhatsApp කරන්න. මගේ අංකය: {number}",
-  "ta": "வணக்கம் Future Life Launchpad! முதல் தொகுதி என் மாவட்டத்தில் தொடங்கும்போது எனக்கு WhatsApp செய்யுங்கள். என் எண்: {number}"
- },
  "Opening WhatsApp. Just press Send.": {
   "si": "WhatsApp විවෘත වෙමින්. Send ඔබන්න.",
   "ta": "WhatsApp திறக்கிறது. Send அழுத்தவும்."
+ },
+ "First intake opens soon. Choose your district and we'll WhatsApp you when it opens.": {
+  "si": "පළමු කණ්ඩායම ළඟදීම ආරම්භ වේ. ඔබේ දිස්ත්‍රික්කය තෝරන්න, එය විවෘත වූ විට අපි WhatsApp කරන්නම්.",
+  "ta": "முதல் தொகுதி விரைவில் தொடங்கும். உங்கள் மாவட்டத்தைத் தேர்ந்தெடுங்கள், அது திறக்கும்போது WhatsApp செய்கிறோம்."
+ },
+ "Hi Future Life Launchpad! Please WhatsApp me when the first intake opens in {district} district.": {
+  "si": "ආයුබෝවන් Future Life Launchpad! පළමු කණ්ඩායම {district} දිස්ත්‍රික්කයේ ආරම්භ වූ විට කරුණාකර මට WhatsApp කරන්න.",
+  "ta": "வணக்கம் Future Life Launchpad! முதல் தொகுதி {district} மாவட்டத்தில் தொடங்கும்போது எனக்கு WhatsApp செய்யுங்கள்."
  }
 }

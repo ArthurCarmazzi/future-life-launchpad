@@ -7,7 +7,7 @@ type Lang = 'en' | 'si' | 'ta';
 const dict = I18N as Record<string, Partial<Record<Lang, string>>>;
 
 const SEL =
-  "nav ul a, nav .btn, .mnav a, .hero .tag, .hero h1, .hero .lead, .hero .cta a, .statbar small, .eyebrow, .h2, .lede, .dk b, .dk div>span, .step h3, .step p, .mission .val, .mission h4, .mission p, .pledge, .band h3, .band p, .feat b, .feat span, .unit h3, .unit p, .mentor .role, .mentor p, summary, details p, .mnav a, .final h2, .final p, .final small, .final button, .face span, .face p, .legend, .proof .cap, footer .note, .real-tag, .real, .town figcaption, .townlist span, footer .fam span, footer .wrap>div:nth-child(3), .vmeta h4, .vmeta p, .vwrap.ph span, .btn.play, .aform .field>label:not(.same), .aform .same span, .aform legend, .aform .hint, .aform .submit, .aform .consent, .aform option[value=\"\"], .athanks h2, .athanks p, .athanks a";
+  "nav ul a, nav .btn, .mnav a, .hero .tag, .hero h1, .hero .lead, .hero .cta a, .statbar small, .eyebrow, .h2, .lede, .dk b, .dk div>span, .step h3, .step p, .mission .val, .mission h4, .mission p, .pledge, .band h3, .band p, .feat b, .feat span, .unit h3, .unit p, .mentor .role, .mentor p, summary, details p, .mnav a, .final h2, .final p, .final small, .final button, .face span, .face p, .legend, .proof .cap, footer .note, .real-tag, .real, .town figcaption, .townlist span, footer .fam span, footer .wrap>div:nth-child(3), .vmeta h4, .vmeta p, .vwrap.ph span, .btn.play, .aform .field>label:not(.same), .aform .same span, .aform legend, .aform .hint, .aform .submit, .aform .consent, .aform option[value=\"\"], .final option[value=\"\"], .athanks h2, .athanks p, .athanks a";
 
 const norm = (h: string) => h.replace(/\s+/g, ' ').trim();
 
