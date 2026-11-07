@@ -57,9 +57,15 @@ export default function Enhancer() {
         const t = dict[en];
         e.innerHTML = l === 'en' || !t ? en : t[l] || en;
       });
-      document
-        .querySelectorAll<HTMLElement>('.lang button')
-        .forEach((b) => b.classList.toggle('on', b.dataset.lang === l));
+      document.querySelectorAll<HTMLElement>('.lang [data-lang]').forEach((b) => {
+        const on = b.dataset.lang === l;
+        b.classList.toggle('on', on);
+        b.setAttribute('aria-selected', String(on));
+        if (on) {
+          const label = document.querySelector('.lang-label');
+          if (label) label.textContent = b.dataset.short || l.toUpperCase();
+        }
+      });
       syncSubs(l);
       try {
         localStorage.setItem('lp_lang', l);
@@ -88,8 +94,41 @@ export default function Enhancer() {
       cleanups.push(() => ph.removeEventListener('click', h));
     }
 
-    document.querySelectorAll<HTMLElement>('.lang button').forEach((b) => {
-      const h = () => setLang(b.dataset.lang as Lang);
+    // Language dropdown: shows only the selected language; opens a list on click
+    const lang = document.querySelector<HTMLElement>('.lang');
+    const cur = lang?.querySelector<HTMLElement>('.lang-cur');
+    const menu = lang?.querySelector<HTMLElement>('.lang-menu');
+    const setOpen = (open: boolean) => {
+      if (!lang || !cur || !menu) return;
+      lang.classList.toggle('open', open);
+      cur.setAttribute('aria-expanded', String(open));
+      menu.hidden = !open;
+    };
+    if (lang && cur && menu) {
+      const toggle = () => setOpen(!lang.classList.contains('open'));
+      cur.addEventListener('click', toggle);
+      const outside = (e: MouseEvent) => {
+        if (!lang.contains(e.target as Node)) setOpen(false);
+      };
+      const esc = (e: KeyboardEvent) => {
+        if (e.key === 'Escape') {
+          setOpen(false);
+          cur.focus();
+        }
+      };
+      document.addEventListener('click', outside);
+      document.addEventListener('keydown', esc);
+      cleanups.push(() => {
+        cur.removeEventListener('click', toggle);
+        document.removeEventListener('click', outside);
+        document.removeEventListener('keydown', esc);
+      });
+    }
+    document.querySelectorAll<HTMLElement>('.lang [data-lang]').forEach((b) => {
+      const h = () => {
+        setLang(b.dataset.lang as Lang);
+        setOpen(false);
+      };
       b.addEventListener('click', h);
       cleanups.push(() => b.removeEventListener('click', h));
     });
