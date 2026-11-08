@@ -35,7 +35,9 @@ export default function Enhancer() {
             io.unobserve(e.target);
           }
         }),
-      { threshold: 0.12 },
+      // Fire as soon as an element's top edge is on screen, so very tall blocks (e.g. the
+      // one-column card grid on phones) can't stay hidden waiting for 12% of their height.
+      { threshold: 0, rootMargin: '0px 0px -8% 0px' },
     );
     document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
     cleanups.push(() => io.disconnect());
