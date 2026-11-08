@@ -88,19 +88,17 @@ html[lang=si] .eyebrow,html[lang=ta] .eyebrow{letter-spacing:.04em;text-transfor
 
 /* voices */
 .voices{background:var(--soft)}
-.vgrid{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:18px;margin-top:40px}
-.voice{background:#fff;border-radius:22px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column}
-.voice.main{grid-row:span 2}
-.vwrap{position:relative;background:#0d1342;aspect-ratio:16/9}
+.vgrid{display:grid;grid-template-columns:repeat(3,minmax(0,270px));justify-content:center;gap:22px;margin-top:40px}
+.voice{background:#fff;border-radius:22px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;box-shadow:0 14px 34px rgba(13,19,66,.08)}
+.vwrap{position:relative;background:#0d1342;aspect-ratio:9/16}
 .vwrap video{width:100%;height:100%;display:block;object-fit:cover;background:#000}
-.voice.main .vwrap{aspect-ratio:auto;flex:1}
 .vwrap.ph{display:grid;place-items:center;background:linear-gradient(160deg,var(--navy),#3b4ab0)}
 .vwrap.ph span{color:#fff;font-weight:800;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:8px 16px;border-radius:999px;font-size:14px}
 .vmeta{padding:16px 20px} .vmeta h4{color:var(--navy);font-size:18px} .vmeta p{color:var(--mute);font-size:14.5px;margin-top:2px}
-.voice.soon .vmeta{padding:12px 18px}
+.voice.soon{opacity:.92}
 .btn.play i{font-style:normal;width:26px;height:26px;border-radius:50%;background:var(--orange);color:var(--navy2);display:grid;place-items:center;font-size:11px}
-video::cue{font-family:'NunitoLP','Noto Sans Sinhala','Noto Sans Tamil',sans-serif;font-size:18px;background:rgba(10,14,50,.75)}
-@media(max-width:900px){.vgrid{grid-template-columns:1fr;grid-template-rows:none}.voice.main{grid-row:auto}.voice.main .vwrap{aspect-ratio:16/9}}
+video::cue{font-family:'NunitoLP','Noto Sans Sinhala','Noto Sans Tamil',sans-serif;font-size:16px;background:rgba(10,14,50,.75)}
+@media(max-width:900px){.vgrid{grid-template-columns:minmax(0,340px);}.voice.soon{flex-direction:row;align-items:center}.voice.soon .vwrap{width:96px;flex:none;aspect-ratio:9/16}.voice.soon .vwrap.ph span{font-size:10px;padding:4px 8px}}
 
 /* learn */
 .learn{background:var(--navy2);color:#fff;padding:0;overflow:hidden}
