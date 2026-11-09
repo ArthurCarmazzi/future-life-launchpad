@@ -1,71 +1,71 @@
-<main class="apply-page" id="apply-top">
-<div class="wrap">
-  <div class="apply-head">
-    <h1 class="h2">Apply, free</h1>
-    <p class="lede">Two minutes, in your language. Tell us what you sell, or want to sell. No business plan needed.</p>
+<main class="min-h-screen bg-soft pt-[150px] pb-[110px] upto-640:pt-[118px] upto-640:pb-20" id="apply-top">
+<div class="mx-auto max-w-[1200px] px-6">
+  <div class="mx-auto mb-9 max-w-[680px] text-center">
+    <h1 class="section-title mb-3.5" data-i18n>Apply, free</h1>
+    <p class="mx-auto max-w-[680px] text-[19px] text-mute" data-i18n>Two minutes, in your language. Tell us what you sell, or want to sell. No business plan needed.</p>
   </div>
 
-  <form class="aform" id="applyForm" novalidate>
-    <div class="field full" data-field="name">
-      <label for="f-name">Full name</label>
-      <input id="f-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Your full name" required>
-      <span class="err" id="e-name" role="alert"></span>
+  <form class="mx-auto grid max-w-[720px] grid-cols-[1fr_1fr] gap-[22px] rounded-[28px] border border-line bg-white p-[38px] shadow-[0_24px_60px_rgba(27,33,64,.09)] upto-640:grid-cols-1 upto-640:gap-5 upto-640:rounded-3xl upto-640:px-5 upto-640:py-[26px]" id="applyForm" novalidate>
+    <div class="group/field col-span-full flex min-w-0 flex-col gap-2" data-field="name">
+      <label class="text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" for="f-name" data-i18n>Full name</label>
+      <input class="w-full rounded-2xl border-[1.5px] border-line bg-soft px-[18px] py-[15px] text-[16px] leading-[normal] text-ink outline-none transition-[border-color,box-shadow,background] duration-150 placeholder:text-[#9aa0bb] focus:border-orange focus:bg-white focus:shadow-[0_0_0_4px_rgba(249,166,26,.22)] group-[.invalid]/field:border-[#d8453b]! group-[.invalid]/field:bg-[#fff7f6]!" id="f-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Your full name" required>
+      <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-name" role="alert"></span>
     </div>
 
-    <div class="field" data-field="phone">
-      <label for="f-phone">Phone number</label>
-      <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="077 123 4567" required>
-      <span class="err" id="e-phone" role="alert"></span>
+    <div class="group/field flex min-w-0 flex-col gap-2" data-field="phone">
+      <label class="text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" for="f-phone" data-i18n>Phone number</label>
+      <input class="w-full rounded-2xl border-[1.5px] border-line bg-soft px-[18px] py-[15px] text-[16px] leading-[normal] text-ink outline-none transition-[border-color,box-shadow,background] duration-150 placeholder:text-[#9aa0bb] focus:border-orange focus:bg-white focus:shadow-[0_0_0_4px_rgba(249,166,26,.22)] group-[.invalid]/field:border-[#d8453b]! group-[.invalid]/field:bg-[#fff7f6]!" id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="077 123 4567" required>
+      <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-phone" role="alert"></span>
     </div>
 
-    <div class="field" data-field="whatsapp">
-      <label for="f-whatsapp">WhatsApp number</label>
-      <input id="f-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="off" maxlength="20" placeholder="077 123 4567" required>
-      <label class="same" for="f-same"><input id="f-same" type="checkbox"><span>Same as phone number</span></label>
-      <span class="err" id="e-whatsapp" role="alert"></span>
+    <div class="group/field flex min-w-0 flex-col gap-2" data-field="whatsapp">
+      <label class="text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" for="f-whatsapp" data-i18n>WhatsApp number</label>
+      <input class="w-full rounded-2xl border-[1.5px] border-line bg-soft px-[18px] py-[15px] text-[16px] leading-[normal] text-ink outline-none transition-[border-color,box-shadow,background] duration-150 placeholder:text-[#9aa0bb] read-only:opacity-75 focus:border-orange focus:bg-white focus:shadow-[0_0_0_4px_rgba(249,166,26,.22)] group-[.invalid]/field:border-[#d8453b]! group-[.invalid]/field:bg-[#fff7f6]!" id="f-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="off" maxlength="20" placeholder="077 123 4567" required>
+      <label class="flex cursor-pointer items-center gap-[9px] text-[13.5px] font-bold text-mute si:text-[15px] ta:text-[15px]" for="f-same"><input class="m-0 size-[18px] flex-none accent-orange" id="f-same" type="checkbox"><span data-i18n>Same as phone number</span></label>
+      <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-whatsapp" role="alert"></span>
     </div>
 
-    <div class="field" data-field="email">
-      <label for="f-email">Gmail address</label>
-      <input id="f-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="120" placeholder="name@gmail.com" required>
-      <span class="err" id="e-email" role="alert"></span>
+    <div class="group/field flex min-w-0 flex-col gap-2" data-field="email">
+      <label class="text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" for="f-email" data-i18n>Gmail address</label>
+      <input class="w-full rounded-2xl border-[1.5px] border-line bg-soft px-[18px] py-[15px] text-[16px] leading-[normal] text-ink outline-none transition-[border-color,box-shadow,background] duration-150 placeholder:text-[#9aa0bb] focus:border-orange focus:bg-white focus:shadow-[0_0_0_4px_rgba(249,166,26,.22)] group-[.invalid]/field:border-[#d8453b]! group-[.invalid]/field:bg-[#fff7f6]!" id="f-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="120" placeholder="name@gmail.com" required>
+      <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-email" role="alert"></span>
     </div>
 
-    <div class="field" data-field="district">
-      <label for="f-district">District</label>
-      <select id="f-district" name="district" required>
-        <option value="">Select your district</option><option value="Ampara">Ampara</option><option value="Anuradhapura">Anuradhapura</option><option value="Badulla">Badulla</option><option value="Batticaloa">Batticaloa</option><option value="Colombo">Colombo</option><option value="Galle">Galle</option><option value="Gampaha">Gampaha</option><option value="Hambantota">Hambantota</option><option value="Jaffna">Jaffna</option><option value="Kalutara">Kalutara</option><option value="Kandy">Kandy</option><option value="Kegalle">Kegalle</option><option value="Kilinochchi">Kilinochchi</option><option value="Kurunegala">Kurunegala</option><option value="Mannar">Mannar</option><option value="Matale">Matale</option><option value="Matara">Matara</option><option value="Monaragala">Monaragala</option><option value="Mullaitivu">Mullaitivu</option><option value="Nuwara Eliya">Nuwara Eliya</option><option value="Polonnaruwa">Polonnaruwa</option><option value="Puttalam">Puttalam</option><option value="Ratnapura">Ratnapura</option><option value="Trincomalee">Trincomalee</option><option value="Vavuniya">Vavuniya</option>
+    <div class="group/field flex min-w-0 flex-col gap-2" data-field="district">
+      <label class="text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" for="f-district" data-i18n>District</label>
+      <select class="w-full cursor-pointer appearance-none rounded-2xl border-[1.5px] border-line bg-soft bg-[url(data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%2712%27%20height=%278%27%20viewBox=%270%200%2012%208%27%3E%3Cpath%20d=%27M1%201.5l5%205%205-5%27%20fill=%27none%27%20stroke=%27%232B388F%27%20stroke-width=%272%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27/%3E%3C/svg%3E)] bg-[position:right_18px_center] bg-no-repeat py-[15px] pr-[46px] pl-[18px] text-[16px] leading-[normal] text-ink outline-none transition-[border-color,box-shadow,background] duration-150 focus:border-orange focus:bg-white focus:shadow-[0_0_0_4px_rgba(249,166,26,.22)] group-[.invalid]/field:border-[#d8453b]! group-[.invalid]/field:bg-[#fff7f6]!" id="f-district" name="district" required>
+        <option value="" data-i18n>Select your district</option><option value="Ampara">Ampara</option><option value="Anuradhapura">Anuradhapura</option><option value="Badulla">Badulla</option><option value="Batticaloa">Batticaloa</option><option value="Colombo">Colombo</option><option value="Galle">Galle</option><option value="Gampaha">Gampaha</option><option value="Hambantota">Hambantota</option><option value="Jaffna">Jaffna</option><option value="Kalutara">Kalutara</option><option value="Kandy">Kandy</option><option value="Kegalle">Kegalle</option><option value="Kilinochchi">Kilinochchi</option><option value="Kurunegala">Kurunegala</option><option value="Mannar">Mannar</option><option value="Matale">Matale</option><option value="Matara">Matara</option><option value="Monaragala">Monaragala</option><option value="Mullaitivu">Mullaitivu</option><option value="Nuwara Eliya">Nuwara Eliya</option><option value="Polonnaruwa">Polonnaruwa</option><option value="Puttalam">Puttalam</option><option value="Ratnapura">Ratnapura</option><option value="Trincomalee">Trincomalee</option><option value="Vavuniya">Vavuniya</option>
       </select>
-      <span class="err" id="e-district" role="alert"></span>
+      <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-district" role="alert"></span>
     </div>
 
-    <fieldset class="field full agefield" data-field="age">
-      <legend>Age range</legend>
-      <div class="agegrid">
-        <label class="pill"><input type="radio" name="age" value="18-24" required><span>18–24</span></label>
-        <label class="pill"><input type="radio" name="age" value="25-34"><span>25–34</span></label>
-        <label class="pill"><input type="radio" name="age" value="35-44"><span>35–44</span></label>
-        <label class="pill"><input type="radio" name="age" value="45-54"><span>45–54</span></label>
-        <label class="pill"><input type="radio" name="age" value="55+"><span>55+</span></label>
+    <fieldset class="group/field col-span-full flex min-w-0 flex-col gap-2" data-field="age">
+      <legend class="p-0 text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" data-i18n>Age range</legend>
+      <div class="flex flex-wrap gap-2.5">
+        <label class="group/pill relative cursor-pointer"><input class="peer absolute inset-0 m-0 h-full w-full cursor-pointer opacity-0" type="radio" name="age" value="18-24" required><span class="block rounded-full border-[1.5px] border-line bg-soft px-[22px] py-3 text-[15px] font-extrabold text-navy transition-[background,border-color,transform] duration-150 group-hover/pill:border-orange group-[.invalid]/field:border-[#d8453b] peer-checked:border-orange peer-checked:bg-orange peer-checked:text-navy2 peer-checked:shadow-[0_8px_20px_rgba(249,166,26,.35)] peer-focus-visible:shadow-[0_0_0_4px_rgba(249,166,26,.35)] upto-640:px-[18px] upto-640:py-[11px]">18–24</span></label>
+        <label class="group/pill relative cursor-pointer"><input class="peer absolute inset-0 m-0 h-full w-full cursor-pointer opacity-0" type="radio" name="age" value="25-34"><span class="block rounded-full border-[1.5px] border-line bg-soft px-[22px] py-3 text-[15px] font-extrabold text-navy transition-[background,border-color,transform] duration-150 group-hover/pill:border-orange group-[.invalid]/field:border-[#d8453b] peer-checked:border-orange peer-checked:bg-orange peer-checked:text-navy2 peer-checked:shadow-[0_8px_20px_rgba(249,166,26,.35)] peer-focus-visible:shadow-[0_0_0_4px_rgba(249,166,26,.35)] upto-640:px-[18px] upto-640:py-[11px]">25–34</span></label>
+        <label class="group/pill relative cursor-pointer"><input class="peer absolute inset-0 m-0 h-full w-full cursor-pointer opacity-0" type="radio" name="age" value="35-44"><span class="block rounded-full border-[1.5px] border-line bg-soft px-[22px] py-3 text-[15px] font-extrabold text-navy transition-[background,border-color,transform] duration-150 group-hover/pill:border-orange group-[.invalid]/field:border-[#d8453b] peer-checked:border-orange peer-checked:bg-orange peer-checked:text-navy2 peer-checked:shadow-[0_8px_20px_rgba(249,166,26,.35)] peer-focus-visible:shadow-[0_0_0_4px_rgba(249,166,26,.35)] upto-640:px-[18px] upto-640:py-[11px]">35–44</span></label>
+        <label class="group/pill relative cursor-pointer"><input class="peer absolute inset-0 m-0 h-full w-full cursor-pointer opacity-0" type="radio" name="age" value="45-54"><span class="block rounded-full border-[1.5px] border-line bg-soft px-[22px] py-3 text-[15px] font-extrabold text-navy transition-[background,border-color,transform] duration-150 group-hover/pill:border-orange group-[.invalid]/field:border-[#d8453b] peer-checked:border-orange peer-checked:bg-orange peer-checked:text-navy2 peer-checked:shadow-[0_8px_20px_rgba(249,166,26,.35)] peer-focus-visible:shadow-[0_0_0_4px_rgba(249,166,26,.35)] upto-640:px-[18px] upto-640:py-[11px]">45–54</span></label>
+        <label class="group/pill relative cursor-pointer"><input class="peer absolute inset-0 m-0 h-full w-full cursor-pointer opacity-0" type="radio" name="age" value="55+"><span class="block rounded-full border-[1.5px] border-line bg-soft px-[22px] py-3 text-[15px] font-extrabold text-navy transition-[background,border-color,transform] duration-150 group-hover/pill:border-orange group-[.invalid]/field:border-[#d8453b] peer-checked:border-orange peer-checked:bg-orange peer-checked:text-navy2 peer-checked:shadow-[0_8px_20px_rgba(249,166,26,.35)] peer-focus-visible:shadow-[0_0_0_4px_rgba(249,166,26,.35)] upto-640:px-[18px] upto-640:py-[11px]">55+</span></label>
       </div>
-      <p class="hint">Open to ages 18 and over.</p>
-      <span class="err" id="e-age" role="alert"></span>
+      <p class="mt-0.5 text-[13px] text-mute" data-i18n>Open to ages 18 and over.</p>
+      <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-age" role="alert"></span>
     </fieldset>
 
-    <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+    <div class="absolute -left-[9999px] h-px w-px overflow-hidden" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
 
-    <div class="full">
-      <button class="btn submit" type="submit" id="applySubmit">Submit application</button>
-      <p class="formerr" id="applyStatus" role="alert"></p>
-      <small class="consent">Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you unless you tick that box separately when you apply.</small>
+    <div class="col-span-full">
+      <button class="btn w-full cursor-pointer justify-center border-0 leading-[normal] disabled:cursor-progress disabled:transform-none disabled:opacity-65" type="submit" id="applySubmit" data-i18n>Submit application</button>
+      <p class="mt-3.5 text-center text-[14px] font-bold text-[#c4372d] empty:hidden" id="applyStatus" role="alert"></p>
+      <small class="mt-4 block text-center text-[12.5px] leading-normal text-mute" data-i18n>Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you unless you tick that box separately when you apply.</small>
     </div>
   </form>
 
-  <div class="athanks" id="applyThanks" hidden tabindex="-1">
-    <div class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-    <h2>Thank you, we have your application.</h2>
-    <p>We'll WhatsApp you when your district opens.</p>
-    <a class="btn" href="/">Back to home</a>
+  <div class="mx-auto max-w-[720px] rounded-[28px] border border-line bg-white px-[38px] py-14 text-center shadow-[0_24px_60px_rgba(27,33,64,.09)] outline-none upto-640:px-[22px] upto-640:py-10" id="applyThanks" hidden tabindex="-1">
+    <div class="mx-auto mb-[22px] grid size-[68px] place-items-center rounded-full bg-orange text-navy2 shadow-[0_12px_28px_rgba(249,166,26,.4)]" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <h2 class="mb-3 text-[clamp(26px,3.6vw,36px)] text-navy" data-i18n>Thank you, we have your application.</h2>
+    <p class="mb-7 text-[18px] text-mute" data-i18n>We'll WhatsApp you when your district opens.</p>
+    <a class="btn" href="/" data-i18n>Back to home</a>
   </div>
 </div>
 </main>
