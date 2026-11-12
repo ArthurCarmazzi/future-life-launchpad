@@ -44,13 +44,15 @@ export default function Enhancer() {
 
     // Language switching
     const els = [...document.querySelectorAll<HTMLElement>(SEL)].map((e) => {
-      e.dataset.en = norm(e.innerHTML);
+      // Keep the first capture: in dev, React runs this effect twice, and the second pass would
+      // otherwise read already-translated text as the English original.
+      e.dataset.en ??= norm(e.innerHTML);
       return e;
     });
 
     // Placeholders (form fields) are translated the same way, keyed by their English text
     const phEls = [...document.querySelectorAll<HTMLInputElement>('input[placeholder]')].map((e) => {
-      e.dataset.ph = e.placeholder;
+      e.dataset.ph ??= e.placeholder;
       return e;
     });
 
