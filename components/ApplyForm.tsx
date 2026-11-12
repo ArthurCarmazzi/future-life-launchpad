@@ -20,6 +20,7 @@ export default function ApplyForm() {
     const same = $<HTMLInputElement>('f-same');
     const email = $<HTMLInputElement>('f-email');
     const district = $<HTMLSelectElement>('f-district');
+    const business = $<HTMLSelectElement>('f-business');
     const submit = $<HTMLButtonElement>('applySubmit');
     const status = $<HTMLElement>('applyStatus');
     const thanks = $<HTMLElement>('applyThanks');
@@ -32,6 +33,7 @@ export default function ApplyForm() {
       whatsapp: wa,
       email,
       district,
+      business,
       age: ageInputs[0],
     };
 
@@ -53,6 +55,7 @@ export default function ApplyForm() {
       whatsapp: () => (normalizePhone(wa.value) ? null : 'Enter a valid WhatsApp number, like 077 123 4567.'),
       email: () => (EMAIL_RE.test(email.value.trim()) ? null : 'Enter a valid Gmail address, like name@gmail.com.'),
       district: () => (district.value ? null : 'Please choose your district.'),
+      business: () => (business.value ? null : 'Please choose your business type.'),
       age: () => (ageInputs.some((i) => i.checked) ? null : 'Please choose your age range.'),
     };
     const fields = Object.keys(check);
@@ -79,6 +82,7 @@ export default function ApplyForm() {
     wire('whatsapp', [wa]);
     wire('email', [email]);
     wire('district', [district]);
+    wire('business', [business]);
     wire('age', ageInputs);
 
     // "Same as phone number"
@@ -142,6 +146,7 @@ export default function ApplyForm() {
             whatsapp: normalizePhone(wa.value),
             email: email.value.trim().toLowerCase(),
             district: district.value,
+            businessType: business.value,
             ageRange: ageInputs.find((i) => i.checked)?.value,
             lang: document.documentElement.lang || 'en',
           }),
