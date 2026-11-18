@@ -28,6 +28,9 @@ jobs:
       - run: npm run lint
 
       - run: npm run build
+        env:
+          # Public Cloudflare Turnstile site key (a repository variable, not a secret)
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
 
       - name: Deploy
         run: npx wrangler pages deploy out --project-name=future-life-launchpad --branch=main

@@ -2,10 +2,57 @@
 
 import { useEffect } from 'react';
 import { t } from '@/lib/i18n';
+import { EMAIL_RE, NAME_RE } from '@/lib/inquiry';
 import { normalizePhone } from '@/lib/phone';
 
-const NAME_RE = /^[\p{L}\p{M}][\p{L}\p{M}\s.'’-]{1,79}$/u;
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+/** Public Cloudflare Turnstile site key, inlined at build time. Without it the widget is skipped. */
+const SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+
+interface TurnstileApi {
+  render(
+    el: HTMLElement,
+    opts: {
+      sitekey: string;
+      theme?: 'light' | 'dark' | 'auto';
+      size?: 'normal' | 'flexible' | 'compact';
+      callback?: (token: string) => void;
+      'expired-callback'?: () => void;
+      'error-callback'?: () => void;
+    },
+  ): string;
+  reset(id?: string): void;
+  remove(id?: string): void;
+}
+declare global {
+  interface Window {
+    turnstile?: TurnstileApi;
+  }
+}
+
+let turnstileScript: Promise<void> | null = null;
+const loadTurnstile = (): Promise<void> => {
+  if (window.turnstile) return Promise.resolve();
+  turnstileScript ??= new Promise<void>((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+    s.async = true;
+    s.onload = () => resolve();
+    s.onerror = () => {
+      turnstileScript = null;
+      reject(new Error('Turnstile failed to load'));
+    };
+    document.head.appendChild(s);
+  });
+  return turnstileScript;
+};
+
+/** Server error codes from /api/inquiry mapped to (translated) messages. */
+const SERVER_ERRORS: Record<string, string> = {
+  rate_limited: 'Too many attempts. Please try again in a few minutes.',
+  bot_check: 'The security check failed. Please try again.',
+  invalid: 'Some details look wrong. Please check the form and try again.',
+};
+const DEFAULT_ERROR = "Sorry, we couldn't send your application. Please try again in a moment.";
 
 /** Validation + submission for the inquiry form on /apply. */
 export default function ApplyForm() {
@@ -105,6 +152,36 @@ export default function ApplyForm() {
       status.textContent = key ? t(key) : '';
     };
 
+    // Cloudflare Turnstile (bot check). Tokens are single use, so the widget is reset after every attempt.
+    let token = '';
+    let widgetId: string | undefined;
+    let active = true;
+    const widgetBox = document.getElementById('ts-widget');
+    if (SITE_KEY && widgetBox) {
+      loadTurnstile()
+        .then(() => {
+          if (!active || widgetId || !window.turnstile) return;
+          widgetId = window.turnstile.render(widgetBox, {
+            sitekey: SITE_KEY,
+            theme: 'light',
+            size: 'flexible',
+            callback: (tk) => (token = tk),
+            'expired-callback': () => (token = ''),
+            'error-callback': () => (token = ''),
+          });
+        })
+        .catch(() => {});
+    }
+    cleanups.push(() => {
+      active = false;
+      if (widgetId) window.turnstile?.remove(widgetId);
+      widgetId = undefined;
+    });
+    const resetCheck = () => {
+      token = '';
+      if (widgetId) window.turnstile?.reset(widgetId);
+    };
+
     on(window, 'lp-lang', () => {
       Object.entries(keys).forEach(([field, key]) => {
         $<HTMLElement>(`e-${field}`).textContent = t(key);
@@ -133,6 +210,11 @@ export default function ApplyForm() {
         return;
       }
 
+      if (SITE_KEY && !token) {
+        setStatus('Please wait for the security check to finish, then try again.');
+        return;
+      }
+
       const label = submit.textContent;
       submit.disabled = true;
       submit.textContent = t('Sending…');
@@ -149,15 +231,22 @@ export default function ApplyForm() {
             businessType: business.value,
             ageRange: ageInputs.find((i) => i.checked)?.value,
             lang: document.documentElement.lang || 'en',
+            turnstileToken: token,
           }),
         });
-        if (!res.ok) throw new Error(String(res.status));
+        if (!res.ok) {
+          const out = (await res.json().catch(() => ({}))) as { error?: string };
+          resetCheck();
+          setStatus(SERVER_ERRORS[out.error ?? ''] ?? DEFAULT_ERROR);
+          return;
+        }
         form.hidden = true;
         thanks.hidden = false;
         thanks.focus();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } catch {
-        setStatus("Sorry, we couldn't send your application. Please try again in a moment.");
+        resetCheck();
+        setStatus(DEFAULT_ERROR);
       } finally {
         submit.disabled = false;
         submit.textContent = label;
