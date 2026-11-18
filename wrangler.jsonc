@@ -7,6 +7,6 @@
   // Secrets (RESEND_API_KEY, TURNSTILE_SECRET_KEY) are set in the Cloudflare dashboard, never here.
   "vars": {
     "TO_EMAIL": "launchpad@fli.lk",
-    "FROM_EMAIL": "Future Life Launchpad <noreply@launchpad.fli.lk>"
+    "FROM_EMAIL": "Future Life Launchpad <hello@launchpad.fli.lk>"
   }
 }

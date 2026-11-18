@@ -117,7 +117,7 @@ const REPLY: Record<Lang, ReplyCopy> = {
     lines: [
       'Thank you for applying to Future Life Launchpad. We have received your application.',
       'Our team will contact you soon by phone or WhatsApp.',
-      'If you want to add anything, just reply to this email.',
+      'This is an automatic message from an address that does not accept emails. If you want to add anything, write to us at {contact}.',
     ],
     sign: 'Future Life Launchpad',
     tagline: 'Empowering People · Building Futures',
@@ -128,7 +128,7 @@ const REPLY: Record<Lang, ReplyCopy> = {
     lines: [
       'Future Life Launchpad සඳහා අයදුම් කළ ඔබට ස්තූතියි. ඔබේ අයදුම්පත අපට ලැබී ඇත.',
       'අපගේ කණ්ඩායම ඉක්මනින් දුරකථනයෙන් හෝ WhatsApp මගින් ඔබව සම්බන්ධ කරගනු ඇත.',
-      'යමක් එකතු කිරීමට අවශ්‍ය නම්, මෙම ඊමේල් පණිවිඩයට පිළිතුරු දෙන්න.',
+      'මෙය ඊමේල් පණිවිඩ භාර නොගන්නා ලිපිනයකින් එවූ ස්වයංක්‍රීය පණිවිඩයකි. යමක් එකතු කිරීමට අවශ්‍ය නම්, {contact} වෙත ලියන්න.',
     ],
     sign: 'Future Life Launchpad',
     tagline: 'ජනතාව සවිබල ගැන්වීම · අනාගතය ගොඩනැගීම',
@@ -139,7 +139,7 @@ const REPLY: Record<Lang, ReplyCopy> = {
     lines: [
       'Future Life Launchpad-க்கு விண்ணப்பித்ததற்கு நன்றி. உங்கள் விண்ணப்பம் எங்களுக்குக் கிடைத்துள்ளது.',
       'எங்கள் குழு விரைவில் தொலைபேசி அல்லது WhatsApp மூலம் உங்களைத் தொடர்புகொள்ளும்.',
-      'எதையாவது சேர்க்க விரும்பினால், இந்த மின்னஞ்சலுக்குப் பதிலளிக்கவும்.',
+      'இது மின்னஞ்சல்களை ஏற்காத முகவரியிலிருந்து அனுப்பப்பட்ட தானியங்கி செய்தி. எதையாவது சேர்க்க விரும்பினால், {contact} என்ற முகவரிக்கு எழுதவும்.',
     ],
     sign: 'Future Life Launchpad',
     tagline: 'மக்களை வலுப்படுத்துதல் · எதிர்காலத்தைக் கட்டியெழுப்புதல்',
@@ -149,7 +149,10 @@ const REPLY: Record<Lang, ReplyCopy> = {
 /** Automatic reply to the applicant (only when they gave an email). Replies go to the Launchpad mailbox. */
 export function autoReply(a: Application, from: string, replyTo: string): Mail | null {
   if (!a.email) return null;
-  const c = REPLY[a.lang];
+  const base = REPLY[a.lang];
+  // "{contact}" becomes the team mailbox (the bare address, without any display name)
+  const contact = (/<([^>]+)>/.exec(replyTo)?.[1] ?? replyTo).trim();
+  const c = { ...base, lines: base.lines.map((l) => l.replace('{contact}', contact)) };
   const html = `<!doctype html><html><body style="margin:0;background:#f4f6fc;font-family:Arial,Helvetica,'Noto Sans Sinhala','Noto Sans Tamil',sans-serif;color:${INK}">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6fc;padding:24px 12px"><tr><td align="center">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border:1px solid ${LINE};border-radius:16px">
