@@ -2,5 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "future-life-launchpad",
   "compatibility_date": "2026-11-01",
-  "pages_build_output_dir": "./out"
+  "pages_build_output_dir": "./out",
+  // Non-secret settings for functions/api/inquiry.ts.
+  // Secrets (RESEND_API_KEY, TURNSTILE_SECRET_KEY) are set in the Cloudflare dashboard, never here.
+  "vars": {
+    "TO_EMAIL": "launchpad@fli.lk",
+    "FROM_EMAIL": "Future Life Launchpad <noreply@launchpad.fli.lk>"
+  }
 }

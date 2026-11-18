@@ -1,0 +1,7 @@
+# Copy to .dev.vars (git-ignored) to run functions/api/inquiry.ts with `npx wrangler pages dev out`.
+# These are Cloudflare's public TEST Turnstile keys; the secret below always passes.
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+# A real Resend key sends real email. Leave blank (or point RESEND_API_URL at a local stand-in) when testing.
+RESEND_API_KEY=
+# RESEND_API_URL=http://127.0.0.1:8799/resend
+# TURNSTILE_VERIFY_URL=http://127.0.0.1:8799/turnstile/siteverify
