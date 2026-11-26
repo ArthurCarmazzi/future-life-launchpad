@@ -9,6 +9,7 @@ export interface Application {
   businessType: string;
   ageRange: string;
   lang: Lang;
+  groupConsent: boolean;
 }
 
 export interface Mail {
@@ -61,6 +62,7 @@ export function staffEmail(a: Application, from: string, to: string): Mail {
     ['Business type', esc(a.businessType), a.businessType],
     ['Age range', esc(ageLabel(a.ageRange)), ageLabel(a.ageRange)],
     ['Language', LANG_NAME[a.lang], LANG_NAME[a.lang]],
+    ['Other Future Life companies may contact', a.groupConsent ? 'Yes' : 'No', a.groupConsent ? 'Yes' : 'No'],
   ];
 
   const how = a.email
@@ -116,7 +118,7 @@ const REPLY: Record<Lang, ReplyCopy> = {
     hello: (n) => `Hi ${n},`,
     lines: [
       'Thank you for applying to Future Life Launchpad. We have received your application.',
-      'Our team will contact you soon by phone or WhatsApp.',
+      'Our team will contact you by phone or WhatsApp when your district opens.',
       'This is an automatic message from an address that does not accept emails. If you want to add anything, write to us at {contact}.',
     ],
     sign: 'Future Life Launchpad',
@@ -127,7 +129,7 @@ const REPLY: Record<Lang, ReplyCopy> = {
     hello: (n) => `ආයුබෝවන් ${n},`,
     lines: [
       'Future Life Launchpad සඳහා අයදුම් කළ ඔබට ස්තූතියි. ඔබේ අයදුම්පත අපට ලැබී ඇත.',
-      'අපගේ කණ්ඩායම ඉක්මනින් දුරකථනයෙන් හෝ WhatsApp මගින් ඔබව සම්බන්ධ කරගනු ඇත.',
+      'ඔබේ දිස්ත්‍රික්කය විවෘත වූ විට අපගේ කණ්ඩායම දුරකථනයෙන් හෝ WhatsApp මගින් ඔබව සම්බන්ධ කරගනු ඇත.',
       'මෙය ඊමේල් පණිවිඩ භාර නොගන්නා ලිපිනයකින් එවූ ස්වයංක්‍රීය පණිවිඩයකි. යමක් එකතු කිරීමට අවශ්‍ය නම්, {contact} වෙත ලියන්න.',
     ],
     sign: 'Future Life Launchpad',
@@ -138,7 +140,7 @@ const REPLY: Record<Lang, ReplyCopy> = {
     hello: (n) => `வணக்கம் ${n},`,
     lines: [
       'Future Life Launchpad-க்கு விண்ணப்பித்ததற்கு நன்றி. உங்கள் விண்ணப்பம் எங்களுக்குக் கிடைத்துள்ளது.',
-      'எங்கள் குழு விரைவில் தொலைபேசி அல்லது WhatsApp மூலம் உங்களைத் தொடர்புகொள்ளும்.',
+      'உங்கள் மாவட்டம் திறக்கும்போது எங்கள் குழு தொலைபேசி அல்லது WhatsApp மூலம் உங்களைத் தொடர்புகொள்ளும்.',
       'இது மின்னஞ்சல்களை ஏற்காத முகவரியிலிருந்து அனுப்பப்பட்ட தானியங்கி செய்தி. எதையாவது சேர்க்க விரும்பினால், {contact} என்ற முகவரிக்கு எழுதவும்.',
     ],
     sign: 'Future Life Launchpad',

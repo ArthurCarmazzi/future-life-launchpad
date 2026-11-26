@@ -72,7 +72,10 @@ function validate(body: Record<string, unknown>): { ok: true; data: Application 
   const lang = (LANGS as readonly string[]).includes(asString(body.lang)) ? (asString(body.lang) as Lang) : 'en';
 
   if (bad.length || !phone || !whatsapp) return { ok: false, fields: bad };
-  return { ok: true, data: { name, phone, whatsapp, email, district, businessType, ageRange, lang } };
+  return {
+    ok: true,
+    data: { name, phone, whatsapp, email, district, businessType, ageRange, lang, groupConsent: body.groupConsent === true },
+  };
 }
 
 /** Best-effort throttle using the Cloudflare cache. Fails open: if the cache is unavailable, nobody is blocked. */

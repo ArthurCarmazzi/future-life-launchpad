@@ -68,6 +68,7 @@ export default function ApplyForm() {
     const email = $<HTMLInputElement>('f-email');
     const district = $<HTMLSelectElement>('f-district');
     const business = $<HTMLSelectElement>('f-business');
+    const groupConsent = $<HTMLInputElement>('f-consent');
     const submit = $<HTMLButtonElement>('applySubmit');
     const status = $<HTMLElement>('applyStatus');
     const thanks = $<HTMLElement>('applyThanks');
@@ -100,7 +101,7 @@ export default function ApplyForm() {
       name: () => (NAME_RE.test(name.value.trim()) ? null : 'Please enter your full name.'),
       phone: () => (normalizePhone(phone.value) ? null : 'Enter a valid Sri Lankan phone number, like 077 123 4567.'),
       whatsapp: () => (normalizePhone(wa.value) ? null : 'Enter a valid WhatsApp number, like 077 123 4567.'),
-      email: () => (!email.value.trim() || EMAIL_RE.test(email.value.trim()) ? null : 'Enter a valid Gmail address, like name@gmail.com.'),
+      email: () => (!email.value.trim() || EMAIL_RE.test(email.value.trim()) ? null : 'Enter a valid email address, like name@example.com.'),
       district: () => (district.value ? null : 'Please choose your district.'),
       business: () => (business.value ? null : 'Please choose your business type.'),
       age: () => (ageInputs.some((i) => i.checked) ? null : 'Please choose your age range.'),
@@ -231,6 +232,7 @@ export default function ApplyForm() {
             businessType: business.value,
             ageRange: ageInputs.find((i) => i.checked)?.value,
             lang: document.documentElement.lang || 'en',
+            groupConsent: groupConsent.checked,
             turnstileToken: token,
           }),
         });

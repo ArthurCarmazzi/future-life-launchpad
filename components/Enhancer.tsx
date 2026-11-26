@@ -16,6 +16,10 @@ export default function Enhancer() {
   useEffect(() => {
     const cleanups: Array<() => void> = [];
 
+    // The page script is running, so the "show everything" safety timer from layout.tsx is no longer needed
+    const w = window as unknown as { __rt?: ReturnType<typeof setTimeout> };
+    if (w.__rt) clearTimeout(w.__rt);
+
     // Sticky nav
     const nav = document.getElementById('nav');
     let menuOpen = false;
@@ -193,6 +197,7 @@ export default function Enhancer() {
       saved = localStorage.getItem('lp_lang') || 'en';
     } catch {}
     if (saved !== 'en') setLang(saved as Lang);
+    document.documentElement.removeAttribute('data-i18n-pending');
 
     return () => cleanups.forEach((fn) => fn());
   }, []);
