@@ -26,8 +26,8 @@
     </div>
 
     <div class="group/field flex min-w-0 flex-col gap-2" data-field="email">
-      <label class="text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" for="f-email"><span data-i18n>Gmail address</span><span class="ml-1.5 font-semibold text-mute" data-i18n>(optional)</span></label>
-      <input class="w-full rounded-2xl border-[1.5px] border-line bg-soft px-[18px] py-[15px] text-[16px] leading-[normal] text-ink outline-none transition-[border-color,box-shadow,background] duration-150 placeholder:text-[#9aa0bb] focus:border-orange focus:bg-white focus:shadow-[0_0_0_4px_rgba(249,166,26,.22)] group-[.invalid]/field:border-[#d8453b]! group-[.invalid]/field:bg-[#fff7f6]!" id="f-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="120" placeholder="name@gmail.com">
+      <label class="text-[14px] font-extrabold text-navy si:text-[15px] ta:text-[15px]" for="f-email"><span data-i18n>Email address</span><span class="ml-1.5 font-semibold text-mute" data-i18n>(optional)</span></label>
+      <input class="w-full rounded-2xl border-[1.5px] border-line bg-soft px-[18px] py-[15px] text-[16px] leading-[normal] text-ink outline-none transition-[border-color,box-shadow,background] duration-150 placeholder:text-[#9aa0bb] focus:border-orange focus:bg-white focus:shadow-[0_0_0_4px_rgba(249,166,26,.22)] group-[.invalid]/field:border-[#d8453b]! group-[.invalid]/field:bg-[#fff7f6]!" id="f-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="120" placeholder="name@example.com">
       <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-email" role="alert"></span>
     </div>
 
@@ -60,6 +60,8 @@
       <span class="text-[13px] font-bold text-[#c4372d] empty:hidden" id="e-age" role="alert"></span>
     </fieldset>
 
+    <label class="col-span-full flex cursor-pointer items-start gap-3 text-[14px] leading-[1.5] font-semibold text-mute" for="f-consent"><input class="m-0 size-[18px] flex-none accent-orange" id="f-consent" name="consent" type="checkbox"><span data-i18n>Other Future Life companies may also contact me about their products and services (optional).</span></label>
+
     <div class="absolute -left-[9999px] h-px w-px overflow-hidden" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
 
     <div id="ts-widget" class="col-span-full flex justify-center empty:hidden"></div>
@@ -74,7 +76,7 @@
   <div class="mx-auto max-w-[720px] rounded-[28px] border border-line bg-white px-[38px] py-14 text-center shadow-[0_24px_60px_rgba(27,33,64,.09)] outline-none upto-640:px-[22px] upto-640:py-10" id="applyThanks" hidden tabindex="-1">
     <div class="mx-auto mb-[22px] grid size-[68px] place-items-center rounded-full bg-orange text-navy2 shadow-[0_12px_28px_rgba(249,166,26,.4)]" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
     <h2 class="mb-3 text-[clamp(26px,3.6vw,36px)] text-navy" data-i18n>Thank you, we have your application.</h2>
-    <p class="mb-7 text-[18px] text-mute" data-i18n>We'll WhatsApp you when your district opens.</p>
+    <p class="mb-7 text-[18px] text-mute" data-i18n>Our team will contact you by phone or WhatsApp when your district opens.</p>
     <a class="btn" href="/" data-i18n>Back to home</a>
   </div>
 </div>

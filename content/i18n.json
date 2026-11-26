@@ -91,9 +91,9 @@
   "si": "Future Life පාරිභෝගිකයෙක්",
   "ta": "Future Life வாடிக்கையாளர்"
  },
- "Already backed by FLI. Launchpad is how she grows it properly.": {
-  "si": "දැනටමත් FLI සහාය ලබයි. Launchpad යනු ඇය එය නිසි ලෙස වර්ධනය කරන ආකාරයයි.",
-  "ta": "ஏற்கனவே FLI ஆதரவு பெறுகிறார். Launchpad மூலம் அதை முறையாக வளர்க்கிறார்."
+ "Already backed by FLi. Launchpad is how she grows it properly.": {
+  "si": "දැනටමත් FLi සහාය ලබයි. Launchpad යනු ඇය එය නිසි ලෙස වර්ධනය කරන ආකාරයයි.",
+  "ta": "ஏற்கனவே FLi ஆதரவு பெறுகிறார். Launchpad மூலம் அதை முறையாக வளர்க்கிறார்."
  },
  "Galle": {
   "si": "ගාල්ල",
@@ -227,9 +227,9 @@
   "si": "පාඨමාලාවක් නොවේ. කවයකි.",
   "ta": "இது பாடநெறி அல்ல. ஒரு வட்டம்."
  },
- "Courses give you videos you never finish. Launchpad gives you a mentor who runs a real business, seven to nine people who notice when you go quiet, and one task every day. Which one changes behaviour?": {
-  "si": "පාඨමාලා ඔබ කිසිදා අවසන් නොකරන වීඩියෝ දෙයි. Launchpad ඔබට සැබෑ ව්‍යාපාරයක් පවත්වන උපදේශකයෙක්, ඔබ නිහඬ වූ විට එය දකින හත් අට දෙනෙක් සහ දිනපතා එක් කාර්යයක් දෙයි. හැසිරීම වෙනස් කරන්නේ කුමක්ද?",
-  "ta": "பாடநெறிகள் நீங்கள் முடிக்காத வீடியோக்களைத் தருகின்றன. Launchpad உண்மையான தொழில் நடத்தும் ஒரு வழிகாட்டியையும், நீங்கள் அமைதியானால் கவனிக்கும் ஏழெட்டு பேரையும், தினமும் ஒரு பணியையும் தருகிறது. எது நடத்தையை மாற்றும்?"
+ "Courses give you videos you never finish. Launchpad gives you a mentor who runs a real business, seven to ten people who notice when you go quiet, and one task every day. Which one changes behaviour?": {
+  "si": "පාඨමාලා ඔබ කිසිදා අවසන් නොකරන වීඩියෝ දෙයි. Launchpad ඔබට සැබෑ ව්‍යාපාරයක් පවත්වන උපදේශකයෙක්, ඔබ නිහඬ වූ විට එය දකින හත් දෙනෙක් සිට දස දෙනෙක් දක්වා සහ දිනපතා එක් කාර්යයක් දෙයි. හැසිරීම වෙනස් කරන්නේ කුමක්ද?",
+  "ta": "பாடநெறிகள் நீங்கள் முடிக்காத வீடியோக்களைத் தருகின்றன. Launchpad உண்மையான தொழில் நடத்தும் ஒரு வழிகாட்டியையும், நீங்கள் அமைதியானால் கவனிக்கும் ஏழு முதல் பத்து பேரையும், தினமும் ஒரு பணியையும் தருகிறது. எது நடத்தையை மாற்றும்?"
  },
  "Apply, free": {
   "si": "නොමිලේ අයදුම් කරන්න",
@@ -323,7 +323,7 @@
   "si": "තවත් ව්‍යවසායකයෙකු යොමු කරන්න, නැතහොත් Future Life ආයතනයකට සැපයුම් කරන්න. ඔබේ සාර්ථකත්වය තවත් කෙනෙකුට ඉඩ සලසයි.",
   "ta": "இன்னொரு தொழில்முனைவோரைப் பரிந்துரையுங்கள், அல்லது Future Life நிறுவனத்திற்கு விநியோகம் செய்யுங்கள். உங்கள் வெற்றி இன்னொருவருக்கு இடம் தருகிறது."
  },
- "<b>The Kindness Pledge.</b> Miss a milestone and you pay a small accountability fine. Every rupee goes to Sathkaara, the group's charity. Not to us. Fair?": {
+ "<b>The Kindness Pledge.</b> Miss a milestone and you pay a small accountability fine. Every rupee goes to Sathkara, the group's charity. Not to us. Fair?": {
   "si": "<b>කාරුණික පොරොන්දුව.</b> සන්ධිස්ථානයක් මග හැරුණොත් ඔබ කුඩා වගකීම් දඩයක් ගෙවයි. සෑම රුපියලක්ම සමූහයේ පුණ්‍ය ආයතනය වන සත්කාරට යයි. අපට නොවේ. සාධාරණද?",
   "ta": "<b>கருணை உறுதிமொழி.</b> ஒரு இலக்கைத் தவறவிட்டால் சிறிய பொறுப்புக் கட்டணம் செலுத்துவீர்கள். ஒவ்வொரு ரூபாயும் குழுமத்தின் தொண்டு நிறுவனமான சத்கார வுக்குச் செல்லும். எங்களுக்கு அல்ல. நியாயம்தானே?"
  },
@@ -379,9 +379,9 @@
   "si": "සාක්ෂි අනුගමනය කරන මූල්‍යකරණය",
   "ta": "ஆதாரத்தைப் பின்தொடரும் நிதி"
  },
- "FLI and NBSL. Graduates who complete 80% of their milestones leave pre-qualified for business funding. Nobody is ever obliged to borrow.": {
-  "si": "FLI සහ NBSL. සන්ධිස්ථානවලින් 80%ක් සම්පූර්ණ කරන උපාධිධාරීන් ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් ලබයි. කිසිවෙකුට ණය ගැනීමට බල කෙරෙන්නේ නැත.",
-  "ta": "FLI மற்றும் NBSL. 80% இலக்குகளை முடிக்கும் பட்டதாரிகள் தொழில் நிதிக்கு முன்தகுதி பெறுகிறார்கள். யாரும் கடன் வாங்கக் கட்டாயப்படுத்தப்படுவதில்லை."
+ "FLi and NBSL. Graduates who complete 80% of their milestones leave pre-qualified for business funding. Nobody is ever obliged to borrow.": {
+  "si": "FLi සහ NBSL. සන්ධිස්ථානවලින් 80%ක් සම්පූර්ණ කරන උපාධිධාරීන් ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් ලබයි. කිසිවෙකුට ණය ගැනීමට බල කෙරෙන්නේ නැත.",
+  "ta": "FLi மற்றும் NBSL. 80% இலக்குகளை முடிக்கும் பட்டதாரிகள் தொழில் நிதிக்கு முன்தகுதி பெறுகிறார்கள். யாரும் கடன் வாங்கக் கட்டாயப்படுத்தப்படுவதில்லை."
  },
  "Business Builder software": {
   "si": "Business Builder මෘදුකාංගය",
@@ -443,7 +443,7 @@
   "si": "කාරුණික පොරොන්දුව",
   "ta": "கருணை உறுதிமொழி"
  },
- "Miss a milestone and your accountability fine goes 100% to Sathkaara, the group's charity arm. Not a penalty for Future Life. A gift to someone who needs it.": {
+ "Miss a milestone and your accountability fine goes 100% to Sathkara, the group's charity arm. Not a penalty for Future Life. A gift to someone who needs it.": {
   "si": "සන්ධිස්ථානයක් මග හැරුණොත් ඔබේ වගකීම් දඩය 100%ක්ම සමූහයේ පුණ්‍ය අංශය වන සත්කාරට යයි. Future Life සඳහා දඬුවමක් නොව, අවශ්‍ය කෙනෙකුට තෑග්ගකි.",
   "ta": "ஒரு இலக்கைத் தவறவிட்டால் உங்கள் பொறுப்புக் கட்டணம் 100% குழுமத்தின் தொண்டுப் பிரிவான சத்கார வுக்குச் செல்லும். Future Life க்கான தண்டனை அல்ல, தேவைப்படுபவருக்கு ஒரு பரிசு."
  },
@@ -455,9 +455,9 @@
   "si": "ව්‍යාපාර අරමුදල් සඳහා<br><em>පූර්ව සුදුසුකම්</em> සමඟ උපාධිය ලබන්න.",
   "ta": "தொழில் நிதிக்கு<br><em>முன்தகுதியுடன்</em> பட்டம் பெறுங்கள்."
  },
- "Complete 80% of your milestones and you leave Launchpad pre‑qualified for Future Life business funding. Your eight weeks of proof becomes your application, so you skip the queue. Final approval follows FLI's standard credit check, and nobody is ever obliged to borrow.": {
-  "si": "ඔබේ සන්ධිස්ථානවලින් 80%ක් සම්පූර්ණ කළොත් ඔබ Future Life ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් සමඟ Launchpad හැර යයි. ඔබේ සති අටක සාක්ෂි ඔබේ අයදුම්පත බවට පත්වන නිසා පෝලිම මඟ හැරේ. අවසන් අනුමැතිය FLI හි සාමාන්‍ය ණය පරීක්ෂාවට අනුව සිදු වන අතර, කිසිවෙකුට ණය ගැනීමට බල කෙරෙන්නේ නැත.",
-  "ta": "உங்கள் இலக்குகளில் 80% முடித்தால், Future Life தொழில் நிதிக்கு முன்தகுதியுடன் Launchpad இலிருந்து வெளியேறுவீர்கள். உங்கள் எட்டு வார ஆதாரமே உங்கள் விண்ணப்பம் ஆவதால் வரிசையில் காத்திருக்க வேண்டியதில்லை. இறுதி ஒப்புதல் FLI இன் வழக்கமான கடன் மதிப்பீட்டின்படி நடக்கும், யாரும் கடன் வாங்கக் கட்டாயப்படுத்தப்படுவதில்லை."
+ "Complete 80% of your milestones and you leave Launchpad pre‑qualified for Future Life business funding. Your eight weeks of proof becomes your application, so you skip the queue. Final approval follows FLi's standard credit check, and nobody is ever obliged to borrow.": {
+  "si": "ඔබේ සන්ධිස්ථානවලින් 80%ක් සම්පූර්ණ කළොත් ඔබ Future Life ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් සමඟ Launchpad හැර යයි. ඔබේ සති අටක සාක්ෂි ඔබේ අයදුම්පත බවට පත්වන නිසා පෝලිම මඟ හැරේ. අවසන් අනුමැතිය FLi හි සාමාන්‍ය ණය පරීක්ෂාවට අනුව සිදු වන අතර, කිසිවෙකුට ණය ගැනීමට බල කෙරෙන්නේ නැත.",
+  "ta": "உங்கள் இலக்குகளில் 80% முடித்தால், Future Life தொழில் நிதிக்கு முன்தகுதியுடன் Launchpad இலிருந்து வெளியேறுவீர்கள். உங்கள் எட்டு வார ஆதாரமே உங்கள் விண்ணப்பம் ஆவதால் வரிசையில் காத்திருக்க வேண்டியதில்லை. இறுதி ஒப்புதல் FLi இன் வழக்கமான கடன் மதிப்பீட்டின்படி நடக்கும், யாரும் கடன் வாங்கக் கட்டாயப்படுத்தப்படுவதில்லை."
  },
  "Founding mentors": {
   "si": "ආරම්භක උපදේශකයින්",
@@ -515,7 +515,7 @@
   "si": "ඇත්තටම නොමිලේද?",
   "ta": "உண்மையிலேயே இலவசமா?"
  },
- "Yes. No fee, no deposit. The only money that ever moves is the Kindness Pledge fine if you miss a milestone, and all of it goes to Sathkaara.": {
+ "Yes. No fee, no deposit. The only money that ever moves is the Kindness Pledge fine if you miss a milestone, and all of it goes to Sathkara.": {
   "si": "ඔව්. ගාස්තුවක් නැත, තැන්පතුවක් නැත. ඔබ සන්ධිස්ථානයක් මග හැරියොත් කාරුණික පොරොන්දු දඩය පමණක් ගෙවිය යුතු අතර, එය සම්පූර්ණයෙන්ම සත්කාරට යයි.",
   "ta": "ஆம். கட்டணம் இல்லை, வைப்புத் தொகை இல்லை. நீங்கள் ஒரு இலக்கைத் தவறவிட்டால் மட்டுமே கருணை உறுதிமொழிக் கட்டணம், அதுவும் முழுமையாக சத்கார வுக்குச் செல்லும்."
  },
@@ -531,9 +531,9 @@
   "si": "මට ණයක් ගන්නම වෙනවද?",
   "ta": "நான் கடன் வாங்கியே ஆக வேண்டுமா?"
  },
- "No. Finishing Launchpad pre-qualifies you for Future Life business funding if you want it. Approval still follows FLI's normal credit check. Nothing is conditional on borrowing, and no mentor is measured on loans.": {
-  "si": "නැත. Launchpad අවසන් කිරීමෙන් ඔබට අවශ්‍ය නම් Future Life ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් ලැබේ. අනුමැතිය FLI හි සාමාන්‍ය ණය පරීක්ෂාවට අනුව සිදු වේ. කිසිවක් ණය ගැනීම මත රඳා නොපවතින අතර, කිසිදු උපදේශකයෙකු ණය මත මනිනු නොලැබේ.",
-  "ta": "இல்லை. Launchpad ஐ முடித்தால், நீங்கள் விரும்பினால் Future Life தொழில் நிதிக்கு முன்தகுதி பெறுவீர்கள். ஒப்புதல் FLI இன் வழக்கமான கடன் மதிப்பீட்டின்படி நடக்கும். எதுவும் கடன் வாங்குவதைச் சார்ந்ததல்ல, எந்த வழிகாட்டியும் கடன்களின் அடிப்படையில் மதிப்பிடப்படுவதில்லை."
+ "No. Finishing Launchpad pre-qualifies you for Future Life business funding if you want it. Approval still follows FLi's normal credit check. Nothing is conditional on borrowing, and no mentor is measured on loans.": {
+  "si": "නැත. Launchpad අවසන් කිරීමෙන් ඔබට අවශ්‍ය නම් Future Life ව්‍යාපාර අරමුදල් සඳහා පූර්ව සුදුසුකම් ලැබේ. අනුමැතිය FLi හි සාමාන්‍ය ණය පරීක්ෂාවට අනුව සිදු වේ. කිසිවක් ණය ගැනීම මත රඳා නොපවතින අතර, කිසිදු උපදේශකයෙකු ණය මත මනිනු නොලැබේ.",
+  "ta": "இல்லை. Launchpad ஐ முடித்தால், நீங்கள் விரும்பினால் Future Life தொழில் நிதிக்கு முன்தகுதி பெறுவீர்கள். ஒப்புதல் FLi இன் வழக்கமான கடன் மதிப்பீட்டின்படி நடக்கும். எதுவும் கடன் வாங்குவதைச் சார்ந்ததல்ல, எந்த வழிகாட்டியும் கடன்களின் அடிப்படையில் மதிப்பிடப்படுவதில்லை."
  },
  "What does Future Life actually get?": {
   "si": "Future Life ඇත්තටම ලබන්නේ කුමක්ද?",
@@ -659,9 +659,9 @@
   "si": "දුරකථන අංකයම",
   "ta": "தொலைபேசி எண்ணே"
  },
- "Gmail address": {
-  "si": "Gmail ලිපිනය",
-  "ta": "Gmail முகவரி"
+ "Email address": {
+  "si": "ඊමේල් ලිපිනය",
+  "ta": "மின்னஞ்சல் முகவரி"
  },
  "District": {
   "si": "දිස්ත්‍රික්කය",
@@ -687,9 +687,9 @@
   "si": "ස්තූතියි, ඔබේ අයදුම්පත අපට ලැබුණා.",
   "ta": "நன்றி, உங்கள் விண்ணப்பம் கிடைத்தது."
  },
- "We'll WhatsApp you when your district opens.": {
-  "si": "ඔබේ දිස්ත්‍රික්කය විවෘත වූ විට අපි WhatsApp කරන්නෙමු.",
-  "ta": "உங்கள் மாவட்டம் திறக்கும்போது WhatsApp செய்கிறோம்."
+ "Our team will contact you by phone or WhatsApp when your district opens.": {
+  "si": "ඔබේ දිස්ත්‍රික්කය විවෘත වූ විට අපගේ කණ්ඩායම දුරකථනයෙන් හෝ WhatsApp මගින් ඔබව සම්බන්ධ කරගනු ඇත.",
+  "ta": "உங்கள் மாவட்டம் திறக்கும்போது எங்கள் குழு தொலைபேசி அல்லது WhatsApp மூலம் உங்களைத் தொடர்புகொள்ளும்."
  },
  "Back to home": {
   "si": "මුල් පිටුවට",
@@ -707,9 +707,9 @@
   "si": "වලංගු WhatsApp අංකයක් ඇතුළත් කරන්න, උදා: 077 123 4567.",
   "ta": "செல்லுபடியாகும் WhatsApp எண்ணை உள்ளிடவும், எ.கா. 077 123 4567."
  },
- "Enter a valid Gmail address, like name@gmail.com.": {
-  "si": "වලංගු Gmail ලිපිනයක් ඇතුළත් කරන්න, උදා: name@gmail.com.",
-  "ta": "செல்லுபடியாகும் Gmail முகவரியை உள்ளிடவும், எ.கா. name@gmail.com."
+ "Enter a valid email address, like name@example.com.": {
+  "si": "වලංගු ඊමේල් ලිපිනයක් ඇතුළත් කරන්න, උදා: name@example.com.",
+  "ta": "செல்லுபடியாகும் மின்னஞ்சல் முகவரியை உள்ளிடவும், எ.கா. name@example.com."
  },
  "Please choose your district.": {
   "si": "කරුණාකර ඔබේ දිස්ත්‍රික්කය තෝරන්න.",
@@ -818,5 +818,13 @@
  "Please wait for the security check to finish, then try again.": {
   "si": "ආරක්ෂක පරීක්ෂාව අවසන් වන තුරු රැඳී සිට නැවත උත්සාහ කරන්න.",
   "ta": "பாதுகாப்புச் சரிபார்ப்பு முடியும் வரை காத்திருந்து மீண்டும் முயற்சிக்கவும்."
+ },
+ "Ready to apply now?": {
+  "si": "දැන්ම අයදුම් කිරීමට සූදානම්ද?",
+  "ta": "இப்போதே விண்ணப்பிக்கத் தயாரா?"
+ },
+ "Other Future Life companies may also contact me about their products and services (optional).": {
+  "si": "වෙනත් Future Life සමාගම්වලටද ඔවුන්ගේ නිෂ්පාදන සහ සේවා ගැන මා සම්බන්ධ කර ගත හැක (අත්‍යවශ්‍ය නොවේ).",
+  "ta": "மற்ற Future Life நிறுவனங்களும் தங்கள் தயாரிப்புகள் மற்றும் சேவைகள் குறித்து என்னைத் தொடர்புகொள்ளலாம் (விருப்பத்திற்குரியது)."
  }
 }
