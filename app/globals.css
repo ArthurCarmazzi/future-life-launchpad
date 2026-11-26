@@ -105,3 +105,6 @@
   &.in { opacity: 1; transform: none }
   @media (prefers-reduced-motion: reduce) { opacity: 1; transform: none }
 }
+
+/* Saved Sinhala/Tamil visitors: hide the English first paint until the translation is applied */
+html[data-i18n-pending] body { visibility: hidden; }

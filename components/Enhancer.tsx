@@ -193,6 +193,7 @@ export default function Enhancer() {
       saved = localStorage.getItem('lp_lang') || 'en';
     } catch {}
     if (saved !== 'en') setLang(saved as Lang);
+    document.documentElement.removeAttribute('data-i18n-pending');
 
     return () => cleanups.forEach((fn) => fn());
   }, []);
