@@ -7,9 +7,9 @@ import { readContent } from '@/lib/content';
 import { pageMeta } from '@/lib/seo';
 
 export const metadata: Metadata = pageMeta({
-  title: 'Apply free | Future Life Launchpad',
+  title: 'Register free | Future Life Launchpad',
   description:
-    'Apply for the free, mentor-led 8-week Future Life Launchpad programme. Two minutes, in your language.',
+    'Register for the free, mentor-led 8-week Future Life Launchpad programme. Two minutes, in your language.',
   path: '/apply/',
 });
 
