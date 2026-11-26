@@ -115,22 +115,52 @@ async function passesTurnstile(env: Env, token: string, ip: string | null): Prom
   }
 }
 
-async function send(env: Env, mail: Mail): Promise<boolean> {
-  try {
-    const res = await fetch(`${env.RESEND_API_URL ?? 'https://api.resend.com'}/emails`, {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify(mail),
-    });
-    if (!res.ok) console.error('Resend rejected an email', res.status, (await res.text()).slice(0, 300));
-    return res.ok;
-  } catch (err) {
-    console.error('Resend request failed', err);
-    return false;
+type SendResult = { accepted: boolean; messageId?: string };
+
+async function send(env: Env, mail: Mail, kind: 'staff' | 'applicant'): Promise<SendResult> {
+  // Reuse the key for retries of the same message to avoid duplicate emails.
+  const key = crypto.randomUUID();
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    let delay = attempt * 1000;
+    try {
+      const res = await fetch(`${env.RESEND_API_URL ?? 'https://api.resend.com'}/emails`, {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${env.RESEND_API_KEY}`,
+          'Content-Type': 'application/json',
+          'Idempotency-Key': key,
+        },
+        body: JSON.stringify(mail),
+        signal: AbortSignal.timeout(8000),
+      });
+      if (res.ok) {
+        const data = (await res.json().catch(() => ({}))) as { id?: string };
+        console.info('Resend accepted email', { kind, messageId: data.id, attempt });
+        return { accepted: true, messageId: data.id };
+      }
+      const error = (await res.json().catch(() => ({}))) as { name?: string };
+      // Avoid logging recipient addresses, message contents or API credentials.
+      console.error('Resend rejected email', { kind, status: res.status, code: error.name, attempt });
+      if (res.status !== 429 && res.status < 500) return { accepted: false };
+      if (res.status === 429 && error.name !== 'rate_limit_exceeded') return { accepted: false };
+      const retryAfter = res.headers.get('Retry-After');
+      if (retryAfter) {
+        const seconds = Number(retryAfter);
+        const ms = Number.isFinite(seconds) ? seconds * 1000 : Date.parse(retryAfter) - Date.now();
+        if (Number.isFinite(ms)) {
+          if (ms > 5000) return { accepted: false };
+          delay = Math.max(delay, ms);
+        }
+      }
+    } catch {
+      console.error('Resend request failed', { kind, attempt });
+    }
+    if (attempt < 3) await new Promise<void>((resolve) => setTimeout(resolve, delay));
   }
+  return { accepted: false };
 }
 
-export async function onRequestPost({ request, env, waitUntil }: Ctx): Promise<Response> {
+export async function onRequestPost({ request, env }: Ctx): Promise<Response> {
   if (!(request.headers.get('Content-Type') ?? '').includes('application/json')) {
     return json({ ok: false, error: 'invalid' }, 415);
   }
@@ -165,15 +195,17 @@ export async function onRequestPost({ request, env, waitUntil }: Ctx): Promise<R
   }
 
   // The team email is the one that matters: if it fails, the visitor sees an error and can retry
-  if (!(await send(env, staffEmail(checked.data, env.FROM_EMAIL, env.TO_EMAIL)))) {
+  if (!(await send(env, staffEmail(checked.data, env.FROM_EMAIL, env.TO_EMAIL), 'staff')).accepted) {
     return json({ ok: false, error: 'email' }, 502);
   }
 
-  // The auto-reply is a courtesy: send it after responding, and never fail the application over it
+  // Observe the confirmation outcome without asking the visitor to resubmit a successful application.
   const reply = autoReply(checked.data, env.FROM_EMAIL, env.TO_EMAIL);
-  if (reply) waitUntil(send(env, reply));
+  const autoReplyStatus = reply
+    ? (await send(env, reply, 'applicant')).accepted ? 'accepted' : 'failed'
+    : 'skipped';
 
-  return json({ ok: true });
+  return json({ ok: true, autoReplyStatus });
 }
 
 /** Every other method is rejected. */
