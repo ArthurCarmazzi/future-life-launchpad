@@ -1,4 +1,4 @@
-import { AGE_RANGES, BUSINESS_TYPES, DISTRICTS, EMAIL_RE, LANGS, MAX_EMAIL_LENGTH, NAME_RE, type Lang } from '../../lib/inquiry';
+import { AGE_RANGES, DISTRICTS, EMAIL_RE, LANGS, MAX_EMAIL_LENGTH, NAME_RE, normalizePitchUrl, type Lang } from '../../lib/inquiry';
 import { normalizePhone } from '../../lib/phone';
 import { autoReply, staffEmail, type Application, type Mail } from '../_lib/emails';
 
@@ -63,18 +63,18 @@ function validate(body: Record<string, unknown>): { ok: true; data: Application 
   const district = asString(body.district);
   if (!(DISTRICTS as readonly string[]).includes(district)) bad.push('district');
 
-  const businessType = asString(body.businessType);
-  if (!(BUSINESS_TYPES as readonly string[]).includes(businessType)) bad.push('businessType');
+  const pitchUrl = normalizePitchUrl(asString(body.pitchUrl));
+  if (!pitchUrl) bad.push('pitchUrl');
 
   const ageRange = asString(body.ageRange);
   if (!(AGE_RANGES as readonly string[]).includes(ageRange)) bad.push('ageRange');
 
   const lang = (LANGS as readonly string[]).includes(asString(body.lang)) ? (asString(body.lang) as Lang) : 'en';
 
-  if (bad.length || !phone || !whatsapp) return { ok: false, fields: bad };
+  if (bad.length || !phone || !whatsapp || !pitchUrl) return { ok: false, fields: bad };
   return {
     ok: true,
-    data: { name, phone, whatsapp, email, district, businessType, ageRange, lang, groupConsent: body.groupConsent === true },
+    data: { name, phone, whatsapp, email, district, pitchUrl, ageRange, lang, groupConsent: body.groupConsent === true },
   };
 }
 

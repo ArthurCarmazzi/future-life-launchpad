@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import { t } from '@/lib/i18n';
-import { EMAIL_RE, NAME_RE } from '@/lib/inquiry';
+import { EMAIL_RE, NAME_RE, normalizePitchUrl } from '@/lib/inquiry';
 import { normalizePhone } from '@/lib/phone';
 
 /** Public Cloudflare Turnstile site key, inlined at build time. Without it the widget is skipped. */
@@ -67,7 +67,7 @@ export default function ApplyForm() {
     const same = $<HTMLInputElement>('f-same');
     const email = $<HTMLInputElement>('f-email');
     const district = $<HTMLSelectElement>('f-district');
-    const business = $<HTMLSelectElement>('f-business');
+    const pitch = $<HTMLInputElement>('f-pitch');
     const groupConsent = $<HTMLInputElement>('f-consent');
     const submit = $<HTMLButtonElement>('applySubmit');
     const status = $<HTMLElement>('applyStatus');
@@ -81,7 +81,7 @@ export default function ApplyForm() {
       whatsapp: wa,
       email,
       district,
-      business,
+      pitch,
       age: ageInputs[0],
     };
 
@@ -103,7 +103,7 @@ export default function ApplyForm() {
       whatsapp: () => (normalizePhone(wa.value) ? null : 'Enter a valid WhatsApp number, like 077 123 4567.'),
       email: () => (!email.value.trim() || EMAIL_RE.test(email.value.trim()) ? null : 'Enter a valid email address, like name@example.com.'),
       district: () => (district.value ? null : 'Please choose your district.'),
-      business: () => (business.value ? null : 'Please choose your business type.'),
+      pitch: () => (normalizePitchUrl(pitch.value) ? null : 'Enter a link to your pitch on YouTube, Facebook or Instagram.'),
       age: () => (ageInputs.some((i) => i.checked) ? null : 'Please choose your age range.'),
     };
     const fields = Object.keys(check);
@@ -130,7 +130,7 @@ export default function ApplyForm() {
     wire('whatsapp', [wa]);
     wire('email', [email]);
     wire('district', [district]);
-    wire('business', [business]);
+    wire('pitch', [pitch]);
     wire('age', ageInputs);
 
     // "Same as phone number"
@@ -229,7 +229,7 @@ export default function ApplyForm() {
             whatsapp: normalizePhone(wa.value),
             email: email.value.trim().toLowerCase() || null,
             district: district.value,
-            businessType: business.value,
+            pitchUrl: normalizePitchUrl(pitch.value),
             ageRange: ageInputs.find((i) => i.checked)?.value,
             lang: document.documentElement.lang || 'en',
             groupConsent: groupConsent.checked,
