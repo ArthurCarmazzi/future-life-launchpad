@@ -15,11 +15,13 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#2B388F' };
 
 /**
- * Runs before the page paints. A visitor who chose Sinhala or Tamil last time gets the page hidden until the
- * translation has been applied, so they never see the English text flash first. A timer removes the flag if
- * anything goes wrong, so the page can never stay blank.
+ * Runs before the page paints.
+ *  - html.js lets the scroll animations hide sections; html.reveal-all (after 6s) shows everything if the script
+ *    never starts (Enhancer cancels the timer as soon as it runs), so the page can never stay blank.
+ *  - A visitor who chose Sinhala or Tamil last time gets the page hidden until the translation has been applied,
+ *    so they never see the English text flash first. A timer removes that flag too.
  */
-const SAVED_LANGUAGE = `try{var l=localStorage.getItem('lp_lang');if(l==='si'||l==='ta'){var d=document.documentElement;d.lang=l;d.setAttribute('data-i18n-pending','');setTimeout(function(){d.removeAttribute('data-i18n-pending')},2500)}}catch(e){}`;
+const SAVED_LANGUAGE = `var d=document.documentElement;d.classList.add('js');window.__rt=setTimeout(function(){d.classList.add('reveal-all')},6000);try{var l=localStorage.getItem('lp_lang');if(l==='si'||l==='ta'){d.lang=l;d.setAttribute('data-i18n-pending','');setTimeout(function(){d.removeAttribute('data-i18n-pending')},2500)}}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

@@ -97,13 +97,15 @@
   &:where(html[lang=ta] *) { font-size: clamp(26px, 3.4vw, 40px) }
 }
 
-/* Fades in on scroll; Enhancer adds .in */
+/*
+ * Fades in on scroll; Enhancer adds .in.
+ * Visible by default (no JavaScript, slow script, or a script error must never leave a blank page).
+ * layout.tsx sets html.js before the first paint and html.reveal-all after a few seconds as a safety net.
+ */
 @utility reveal {
-  opacity: 0;
-  transform: translateY(26px);
   transition: opacity .7s, transform .7s;
-  &.in { opacity: 1; transform: none }
-  @media (prefers-reduced-motion: reduce) { opacity: 1; transform: none }
+  &:where(html.js:not(.reveal-all) *):not(.in) { opacity: 0; transform: translateY(26px) }
+  @media (prefers-reduced-motion: reduce) { opacity: 1 !important; transform: none !important }
 }
 
 /* Saved Sinhala/Tamil visitors: hide the English first paint until the translation is applied */

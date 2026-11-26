@@ -8,13 +8,20 @@ https://launchpad.fli.lk. Every merge to `main` builds and deploys through GitHu
 - `app/globals.css` – styles (Tailwind); `public/fonts` – Nunito; `public/img` – images and videos
 - `components/Enhancer.tsx` – nav, scroll reveal, language switcher
 - `components/ApplyForm.tsx` – apply form validation, Turnstile, submission
-- `functions/api/inquiry.ts` – the only server code: receives applications and sends the emails
+- `functions/api/inquiry.ts` – receives applications and sends the emails
+- `functions/video/[[path]].ts` – serves `public/video/*` with byte-range support so videos can be scrubbed
+- `public/_headers` – security headers and cache lifetimes; `lib/seo.ts` – page titles, canonical and link-preview tags
 
 ```
 npm install
 npm run dev     # local dev (pages only; /api/inquiry is not served)
 npm run build   # static site written to ./out
 ```
+
+## Images and videos
+
+- Add photos as **.webp** (about 80% quality) at twice the size they are shown at. Smaller images look soft on phones.
+- Put videos in `public/video/` (720x1280 H.264 is plenty) and a poster image in `public/img/`. Keep each file under 25 MiB (Cloudflare's limit).
 
 ## Inquiry emails
 
