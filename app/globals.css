@@ -108,5 +108,52 @@
   @media (prefers-reduced-motion: reduce) { opacity: 1 !important; transform: none !important }
 }
 
+/*
+ * Cards that "pop":
+ *  .pop     hover (mouse only) lifts and slightly overshoots; pressing squashes it back, which also gives
+ *           touch screens tap feedback. Dark cards set --pop-shadow.
+ *  .pop-in  when its section scrolls into view (the parent .reveal gets .in) the cards pop up one after another.
+ * Both are switched off for visitors who ask for reduced motion.
+ */
+@utility pop {
+  transition: transform .32s cubic-bezier(.34, 1.56, .64, 1), box-shadow .32s ease, border-color .32s ease, background-color .32s ease;
+  @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    &:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 18px 38px var(--pop-shadow, rgba(13, 19, 66, .16));
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    &:active { transform: scale(.97); transition-duration: .12s }
+  }
+}
+
+@keyframes pop-in {
+  0% { opacity: 0; transform: translateY(30px) scale(.88) }
+  60% { opacity: 1; transform: translateY(-5px) scale(1.03) }
+  100% { opacity: 1; transform: none }
+}
+@utility pop-in {
+  @media (prefers-reduced-motion: no-preference) {
+    &:where(.reveal.in *) {
+      animation: pop-in .65s cubic-bezier(.34, 1.56, .64, 1) backwards;
+      animation-delay: calc(var(--pop-i, 0) * 90ms);
+    }
+    &:nth-child(2) { --pop-i: 1 }
+    &:nth-child(3) { --pop-i: 2 }
+    &:nth-child(4) { --pop-i: 3 }
+    &:nth-child(5) { --pop-i: 4 }
+  }
+}
+
+/* FAQ: the answer pops open */
+@keyframes pop-open {
+  0% { opacity: 0; transform: translateY(-8px) scale(.98) }
+  100% { opacity: 1; transform: none }
+}
+@media (prefers-reduced-motion: no-preference) {
+  details[open] > :not(summary) { animation: pop-open .38s cubic-bezier(.34, 1.56, .64, 1) }
+}
+
 /* Saved Sinhala/Tamil visitors: hide the English first paint until the translation is applied */
 html[data-i18n-pending] body { visibility: hidden; }
