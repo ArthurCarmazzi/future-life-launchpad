@@ -6,7 +6,7 @@ export interface Application {
   whatsapp: string; // +94XXXXXXXXX
   email: string | null;
   district: string;
-  businessType: string;
+  pitchUrl: string;
   ageRange: string;
   lang: Lang;
   groupConsent: boolean;
@@ -59,7 +59,7 @@ export function staffEmail(a: Application, from: string, to: string): Mail {
       a.email ?? 'not given',
     ],
     ['District', esc(a.district), a.district],
-    ['Business type', esc(a.businessType), a.businessType],
+    ['Pitch', `<a href="${esc(a.pitchUrl)}" style="color:${NAVY}">${esc(a.pitchUrl)}</a>`, a.pitchUrl],
     ['Age range', esc(ageLabel(a.ageRange)), ageLabel(a.ageRange)],
     ['Language', LANG_NAME[a.lang], LANG_NAME[a.lang]],
     ['Other Future Life companies may contact', a.groupConsent ? 'Yes' : 'No', a.groupConsent ? 'Yes' : 'No'],
@@ -96,7 +96,7 @@ ${rows
   return {
     from,
     to,
-    subject: oneLine(`New application: ${a.name} · ${a.district} · ${a.businessType}`),
+    subject: oneLine(`New application: ${a.name} · ${a.district}`),
     html,
     text,
     ...(a.email ? { reply_to: a.email } : {}),
