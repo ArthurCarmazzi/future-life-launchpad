@@ -74,7 +74,7 @@ function validate(body: Record<string, unknown>): { ok: true; data: Application 
   if (bad.length || !phone || !whatsapp || !pitchUrl) return { ok: false, fields: bad };
   return {
     ok: true,
-    data: { name, phone, whatsapp, email, district, pitchUrl, ageRange, lang, groupConsent: body.groupConsent === true },
+    data: { name, phone, whatsapp, email, district, pitchUrl, ageRange, lang, contestOptIn: body.contestOptIn === true },
   };
 }
 
