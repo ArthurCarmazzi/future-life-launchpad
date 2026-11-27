@@ -9,7 +9,7 @@ export interface Application {
   pitchUrl: string;
   ageRange: string;
   lang: Lang;
-  groupConsent: boolean;
+  contestOptIn: boolean;
 }
 
 export interface Mail {
@@ -62,7 +62,7 @@ export function staffEmail(a: Application, from: string, to: string): Mail {
     ['Pitch', `<a href="${esc(a.pitchUrl)}" style="color:${NAVY}">${esc(a.pitchUrl)}</a>`, a.pitchUrl],
     ['Age range', esc(ageLabel(a.ageRange)), ageLabel(a.ageRange)],
     ['Language', LANG_NAME[a.lang], LANG_NAME[a.lang]],
-    ['Other Future Life companies may contact', a.groupConsent ? 'Yes' : 'No', a.groupConsent ? 'Yes' : 'No'],
+    ['Contest entry', a.contestOptIn ? 'Yes (agreed to be contacted about selection)' : 'No', a.contestOptIn ? 'Yes (agreed to be contacted about selection)' : 'No'],
   ];
 
   const how = a.email

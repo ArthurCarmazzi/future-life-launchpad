@@ -563,9 +563,9 @@
   "si": "මට දන්වන්න",
   "ta": "எனக்குத் தெரிவியுங்கள்"
  },
- "Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you unless you tick that box separately when you apply.": {
-  "si": "Future Life Launchpad වැඩසටහන ගැන ඔබව සම්බන්ධ කර ගත හැක. ඕනෑම වේලාවක ඉවත් විය හැක. ඔබ අයදුම් කරන විට වෙනම කොටුව සලකුණු නොකළහොත් වෙනත් කිසිදු Future Life සමාගමක් ඔබව සම්බන්ධ කර නොගනී.",
-  "ta": "திட்டம் குறித்து Future Life Launchpad உங்களைத் தொடர்பு கொள்ளலாம். எப்போது வேண்டுமானாலும் விலகலாம். விண்ணப்பிக்கும்போது தனிப் பெட்டியைக் குறிக்காவிட்டால் வேறு எந்த Future Life நிறுவனமும் உங்களைத் தொடர்பு கொள்ளாது."
+ "Future Life Launchpad may contact you about the programme. Opt out any time. No other Future Life company will contact you.": {
+  "si": "Future Life Launchpad වැඩසටහන ගැන ඔබව සම්බන්ධ කර ගත හැක. ඕනෑම වේලාවක ඉවත් විය හැක. වෙනත් කිසිදු Future Life සමාගමක් ඔබව සම්බන්ධ කර නොගනී.",
+  "ta": "திட்டம் குறித்து Future Life Launchpad உங்களைத் தொடர்பு கொள்ளலாம். எப்போது வேண்டுமானாலும் விலகலாம். வேறு எந்த Future Life நிறுவனமும் உங்களைத் தொடர்பு கொள்ளாது."
  },
  "Empowering People · Building Futures<br>© 2026 Future Life Holdings, Sri Lanka": {
   "si": "ජනතාව සවිබල ගැන්වීම · අනාගතය ගොඩනැගීම<br>© 2026 Future Life Holdings, ශ්‍රී ලංකාව",
@@ -779,9 +779,13 @@
   "si": "දැන්ම ලියාපදිංචි වීමට සූදානම්ද?",
   "ta": "இப்போதே பதிவு செய்யத் தயாரா?"
  },
- "Other Future Life companies may also contact me about their products and services (optional).": {
-  "si": "වෙනත් Future Life සමාගම්වලටද ඔවුන්ගේ නිෂ්පාදන සහ සේවා ගැන මා සම්බන්ධ කර ගත හැක (අත්‍යවශ්‍ය නොවේ).",
-  "ta": "மற்ற Future Life நிறுவனங்களும் தங்கள் தயாரிப்புகள் மற்றும் சேவைகள் குறித்து என்னைத் தொடர்புகொள்ளலாம் (விருப்பத்திற்குரியது)."
+ "I'd like to enter the Launchpad contest for entrepreneurs (optional).": {
+  "si": "ව්‍යාපාරිකයන් සඳහා පවත්වන Launchpad තරගයට සහභාගී වීමට කැමතියි (අත්‍යවශ්‍ය නොවේ).",
+  "ta": "தொழில்முனைவோருக்கான Launchpad போட்டியில் பங்கேற்க விரும்புகிறேன் (விருப்பத்திற்குரியது)."
+ },
+ "By ticking this box, you opt in to the contest Future Life Launchpad is running for entrepreneurs, and you agree that we may contact you about your possible selection.": {
+  "si": "මෙම කොටුව සලකුණු කිරීමෙන්, ව්‍යාපාරිකයන් සඳහා Future Life Launchpad පවත්වන තරගයට ඔබ සහභාගී වන අතර, ඔබ තෝරා ගැනීම පිළිබඳව අපට ඔබව සම්බන්ධ කර ගත හැකි බවට ඔබ එකඟ වේ.",
+  "ta": "இந்தப் பெட்டியைக் குறிப்பதன் மூலம், தொழில்முனைவோருக்காக Future Life Launchpad நடத்தும் போட்டியில் நீங்கள் பங்கேற்கிறீர்கள்; உங்கள் தேர்வு குறித்து நாங்கள் உங்களைத் தொடர்புகொள்ளலாம் என்பதற்கும் ஒப்புக்கொள்கிறீர்கள்."
  },
  "Your Pitch URL (YouTube / Facebook / Instagram)": {
   "si": "ඔබේ Pitch සබැඳිය (YouTube / Facebook / Instagram)",

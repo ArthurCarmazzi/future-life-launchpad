@@ -68,7 +68,7 @@ export default function ApplyForm() {
     const email = $<HTMLInputElement>('f-email');
     const district = $<HTMLSelectElement>('f-district');
     const pitch = $<HTMLInputElement>('f-pitch');
-    const groupConsent = $<HTMLInputElement>('f-consent');
+    const contest = $<HTMLInputElement>('f-contest');
     const submit = $<HTMLButtonElement>('applySubmit');
     const status = $<HTMLElement>('applyStatus');
     const thanks = $<HTMLElement>('applyThanks');
@@ -232,7 +232,7 @@ export default function ApplyForm() {
             pitchUrl: normalizePitchUrl(pitch.value),
             ageRange: ageInputs.find((i) => i.checked)?.value,
             lang: document.documentElement.lang || 'en',
-            groupConsent: groupConsent.checked,
+            contestOptIn: contest.checked,
             turnstileToken: token,
           }),
         });
